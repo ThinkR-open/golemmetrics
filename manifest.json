@@ -3,8 +3,8 @@
   "locale": "C",
   "platform": "4.0.5",
   "metadata": {
-    "appmode": "rmd-static",
-    "primary_rmd": "README.Rmd",
+    "appmode": "shiny",
+    "primary_rmd": null,
     "primary_html": null,
     "content_category": null,
     "has_parameters": false
@@ -674,7 +674,7 @@
         "Author": "Gábor Csárdi [aut, cre],\n  Kirill Müller [aut],\n  Jim Hester [aut],\n  Maëlle Salmon [ctb] (<https://orcid.org/0000-0002-2815-0399>)",
         "Repository": "CRAN",
         "Date/Publication": "2021-03-05 19:30:02 UTC",
-        "Built": "R 4.0.5; ; 2021-04-06 12:51:35 UTC; unix"
+        "Built": "R 4.0.5; ; 2021-04-06 13:59:13 UTC; unix"
       }
     },
     "diffobj": {
@@ -928,7 +928,7 @@
         "Maintainer": "Jim Hester <james.f.hester@gmail.com>",
         "Repository": "CRAN",
         "Date/Publication": "2020-07-31 21:30:03 UTC",
-        "Built": "R 4.0.5; x86_64-pc-linux-gnu; 2021-04-06 12:51:42 UTC; unix"
+        "Built": "R 4.0.5; x86_64-pc-linux-gnu; 2021-04-06 13:59:19 UTC; unix"
       }
     },
     "gert": {
@@ -1094,10 +1094,10 @@
         "GithubRef": "dev",
         "GithubSHA1": "313ebfaf1d79ba4bb6c66954c0e56bf469746217",
         "NeedsCompilation": "no",
-        "Packaged": "2021-04-06 12:55:44 UTC; runner",
+        "Packaged": "2021-04-06 14:02:40 UTC; runner",
         "Author": "Colin Fay [cre, aut] (<https://orcid.org/0000-0001-7343-1846>),\n  Vincent Guyader [aut] (<https://orcid.org/0000-0003-0671-9270>,\n    previous maintainer),\n  Sébastien Rochette [aut] (<https://orcid.org/0000-0002-1565-9313>),\n  Cervan Girard [aut] (<https://orcid.org/0000-0002-4816-4624>),\n  Novica Nakov [ctb],\n  David Granjon [ctb],\n  ThinkR [cph]",
         "Maintainer": "Colin Fay <contact@colinfay.me>",
-        "Built": "R 4.0.5; ; 2021-04-06 12:55:44 UTC; unix"
+        "Built": "R 4.0.5; ; 2021-04-06 14:02:40 UTC; unix"
       }
     },
     "here": {
@@ -2031,7 +2031,7 @@
         "Maintainer": "Jim Hester <jim.hester@rstudio.com>",
         "Repository": "CRAN",
         "Date/Publication": "2021-04-01 16:50:06 UTC",
-        "Built": "R 4.0.5; ; 2021-04-06 12:51:31 UTC; unix"
+        "Built": "R 4.0.5; ; 2021-04-06 13:59:10 UTC; unix"
       }
     },
     "rlang": {
@@ -2384,7 +2384,7 @@
         "Maintainer": "Hadley Wickham <hadley@rstudio.com>",
         "Repository": "CRAN",
         "Date/Publication": "2021-02-14 16:50:03 UTC",
-        "Built": "R 4.0.5; x86_64-pc-linux-gnu; 2021-04-06 12:52:21 UTC; unix"
+        "Built": "R 4.0.5; x86_64-pc-linux-gnu; 2021-04-06 13:59:55 UTC; unix"
       }
     },
     "tibble": {
@@ -2768,16 +2768,19 @@
       "checksum": "d41d8cd98f00b204e9800998ecf8427e"
     },
     ".Rbuildignore": {
-      "checksum": "0223dddfba532d5fe5802f7736fa756b"
+      "checksum": "6a44969d61e61c586b3c6cad205cd85b"
     },
     ".Rprofile": {
       "checksum": "75600f57e23e175535ba785d0234a765"
+    },
+    "app.R": {
+      "checksum": "84980ccce8273d2a0c3fc1ac3bfbe436"
     },
     "CODE_OF_CONDUCT.md": {
       "checksum": "f44aaac51a60237b86f18e87c40f234c"
     },
     "DESCRIPTION": {
-      "checksum": "a5a237298046886cf2664baf70b8eeed"
+      "checksum": "0c952ee36ae7e5c0c5251293972fdb6c"
     },
     "dev/01_start.R": {
       "checksum": "7951d5e585af60a5dfc901ebff5354c6"
@@ -2876,7 +2879,7 @@
       "checksum": "8187d96c5bbd9a4273d13df75273c6aa"
     },
     "packrat/desc/desc": {
-      "checksum": "81ca44c7c6e7c860809e4e1a81e650f4"
+      "checksum": "5760f17c48bd2a9cfde1e14bfd0289f2"
     },
     "packrat/desc/diffobj": {
       "checksum": "fcbb6f0cf366e9859c3df6068226c5f7"
@@ -2903,7 +2906,7 @@
       "checksum": "29fd1412d50b8a8ca9a4c02a01911189"
     },
     "packrat/desc/fs": {
-      "checksum": "bb490f4af4e40dd61d0a3358a5457808"
+      "checksum": "f460775da082710e1e7298e3e97dcd2a"
     },
     "packrat/desc/gert": {
       "checksum": "3632d19b6921acee89632fe911c3dabc"
@@ -2918,7 +2921,7 @@
       "checksum": "a4e0090e668ce4611810fd4e8b6a6341"
     },
     "packrat/desc/golem": {
-      "checksum": "b0f6310a958660f865ede7f624fe7ee7"
+      "checksum": "18792abad8e4a2c5222c91019cae784f"
     },
     "packrat/desc/here": {
       "checksum": "37eb97b846d21f2387c617987fd94f35"
@@ -3014,7 +3017,7 @@
       "checksum": "e8db965ee765bf2827c59359ce05105c"
     },
     "packrat/desc/remotes": {
-      "checksum": "a5f272833eca1cbe7eea829a31b51374"
+      "checksum": "9cfea5ac1a3bad8cc85cf8b75e3a19d0"
     },
     "packrat/desc/rlang": {
       "checksum": "3e8b3d1e2d95f71bd300ac2b5f3819d5"
@@ -3047,7 +3050,7 @@
       "checksum": "2f42f46ea7d8d2911bcdee3bdd0c6551"
     },
     "packrat/desc/testthat": {
-      "checksum": "ccee222ab19ea738942f3e7306f60180"
+      "checksum": "6486cbbbc3274ab3b41b4a3b8705c6bf"
     },
     "packrat/desc/tibble": {
       "checksum": "e2566a4521c310e3be7ead9cad490e9d"

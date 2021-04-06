@@ -12,6 +12,7 @@ Imports:
     glue,
     golem (>= 0.3.0),
     htmltools,
+    pkgload,
     processx,
     shiny (>= 1.6.0)
 Encoding: UTF-8
