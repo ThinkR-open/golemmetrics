@@ -674,7 +674,7 @@
         "Author": "Gábor Csárdi [aut, cre],\n  Kirill Müller [aut],\n  Jim Hester [aut],\n  Maëlle Salmon [ctb] (<https://orcid.org/0000-0002-2815-0399>)",
         "Repository": "CRAN",
         "Date/Publication": "2021-03-05 19:30:02 UTC",
-        "Built": "R 4.0.5; ; 2021-04-07 08:17:51 UTC; unix"
+        "Built": "R 4.0.5; ; 2021-04-07 08:39:20 UTC; unix"
       }
     },
     "diffobj": {
@@ -928,7 +928,7 @@
         "Maintainer": "Jim Hester <james.f.hester@gmail.com>",
         "Repository": "CRAN",
         "Date/Publication": "2020-07-31 21:30:03 UTC",
-        "Built": "R 4.0.5; x86_64-pc-linux-gnu; 2021-04-07 08:17:59 UTC; unix"
+        "Built": "R 4.0.5; x86_64-pc-linux-gnu; 2021-04-07 08:39:29 UTC; unix"
       }
     },
     "gert": {
@@ -1094,10 +1094,10 @@
         "GithubRef": "dev",
         "GithubSHA1": "8f55883d6b6d694cdc2181329359dbaa212a0e44",
         "NeedsCompilation": "no",
-        "Packaged": "2021-04-07 08:22:02 UTC; runner",
+        "Packaged": "2021-04-07 08:43:39 UTC; runner",
         "Author": "Colin Fay [cre, aut] (<https://orcid.org/0000-0001-7343-1846>),\n  Vincent Guyader [aut] (<https://orcid.org/0000-0003-0671-9270>,\n    previous maintainer),\n  Sébastien Rochette [aut] (<https://orcid.org/0000-0002-1565-9313>),\n  Cervan Girard [aut] (<https://orcid.org/0000-0002-4816-4624>),\n  Novica Nakov [ctb],\n  David Granjon [ctb],\n  ThinkR [cph]",
         "Maintainer": "Colin Fay <contact@colinfay.me>",
-        "Built": "R 4.0.5; ; 2021-04-07 08:22:02 UTC; unix"
+        "Built": "R 4.0.5; ; 2021-04-07 08:43:39 UTC; unix"
       }
     },
     "here": {
@@ -1971,7 +1971,7 @@
         "Maintainer": "Jim Hester <jim.hester@rstudio.com>",
         "Repository": "CRAN",
         "Date/Publication": "2021-04-01 16:50:06 UTC",
-        "Built": "R 4.0.5; ; 2021-04-07 08:17:47 UTC; unix"
+        "Built": "R 4.0.5; ; 2021-04-07 08:39:17 UTC; unix"
       }
     },
     "rlang": {
@@ -2324,7 +2324,7 @@
         "Maintainer": "Hadley Wickham <hadley@rstudio.com>",
         "Repository": "CRAN",
         "Date/Publication": "2021-02-14 16:50:03 UTC",
-        "Built": "R 4.0.5; x86_64-pc-linux-gnu; 2021-04-07 08:18:44 UTC; unix"
+        "Built": "R 4.0.5; x86_64-pc-linux-gnu; 2021-04-07 08:40:12 UTC; unix"
       }
     },
     "tibble": {
@@ -2825,7 +2825,7 @@
       "checksum": "8187d96c5bbd9a4273d13df75273c6aa"
     },
     "packrat/desc/desc": {
-      "checksum": "b4f398fc27a9a0952d547299944396f7"
+      "checksum": "d84283f1c575b7c99e7cbc304f3a18a4"
     },
     "packrat/desc/diffobj": {
       "checksum": "fcbb6f0cf366e9859c3df6068226c5f7"
@@ -2852,7 +2852,7 @@
       "checksum": "29fd1412d50b8a8ca9a4c02a01911189"
     },
     "packrat/desc/fs": {
-      "checksum": "6e81e977d791d6570663b1b0d116a226"
+      "checksum": "5d85edb9b820201e69b188931c110f54"
     },
     "packrat/desc/gert": {
       "checksum": "3632d19b6921acee89632fe911c3dabc"
@@ -2867,7 +2867,7 @@
       "checksum": "a4e0090e668ce4611810fd4e8b6a6341"
     },
     "packrat/desc/golem": {
-      "checksum": "11b46a9e59c6f1292c35e4135e82e293"
+      "checksum": "b13470816f944be5dd49099645b8554a"
     },
     "packrat/desc/here": {
       "checksum": "37eb97b846d21f2387c617987fd94f35"
@@ -2957,7 +2957,7 @@
       "checksum": "e8db965ee765bf2827c59359ce05105c"
     },
     "packrat/desc/remotes": {
-      "checksum": "50178b680d3caf7ccfaf143a27920a90"
+      "checksum": "591ca1ce437248ed20e8c9ddf990ac6b"
     },
     "packrat/desc/rlang": {
       "checksum": "3e8b3d1e2d95f71bd300ac2b5f3819d5"
@@ -2990,7 +2990,7 @@
       "checksum": "2f42f46ea7d8d2911bcdee3bdd0c6551"
     },
     "packrat/desc/testthat": {
-      "checksum": "f4411052cbcfedf55fee92ba331fdf4e"
+      "checksum": "80ceec0e6b737bd7f71daeb02c057e54"
     },
     "packrat/desc/tibble": {
       "checksum": "e2566a4521c310e3be7ead9cad490e9d"
