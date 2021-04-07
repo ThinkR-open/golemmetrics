@@ -19,7 +19,7 @@ Encoding: UTF-8
 LazyData: true
 RoxygenNote: 7.1.1
 Remotes: 
-    ThinkR-open/golem@dev
+    github::ThinkR-open/golem@dev
 Suggests: 
     testthat (>= 3.0.0)
 Config/testthat/edition: 3
