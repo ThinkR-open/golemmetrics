@@ -363,7 +363,7 @@
     },
     "cli": {
       "Source": "CRAN",
-      "Repository": "https://cloud.r-project.org",
+      "Repository": "https://packagemanager.rstudio.com/cran/__linux__/focal/latest",
       "GithubRepo": null,
       "GithubUsername": null,
       "GithubRef": null,
@@ -674,7 +674,7 @@
         "Author": "Gábor Csárdi [aut, cre],\n  Kirill Müller [aut],\n  Jim Hester [aut],\n  Maëlle Salmon [ctb] (<https://orcid.org/0000-0002-2815-0399>)",
         "Repository": "CRAN",
         "Date/Publication": "2021-03-05 19:30:02 UTC",
-        "Built": "R 4.0.5; ; 2021-04-07 09:51:40 UTC; unix"
+        "Built": "R 4.0.5; ; 2021-04-12 20:48:51 UTC; unix"
       }
     },
     "diffobj": {
@@ -928,7 +928,7 @@
         "Maintainer": "Jim Hester <james.f.hester@gmail.com>",
         "Repository": "CRAN",
         "Date/Publication": "2020-07-31 21:30:03 UTC",
-        "Built": "R 4.0.5; x86_64-pc-linux-gnu; 2021-04-07 09:51:47 UTC; unix"
+        "Built": "R 4.0.5; x86_64-pc-linux-gnu; 2021-04-12 20:48:59 UTC; unix"
       }
     },
     "gert": {
@@ -1094,10 +1094,10 @@
         "GithubRef": "dev",
         "GithubSHA1": "8f55883d6b6d694cdc2181329359dbaa212a0e44",
         "NeedsCompilation": "no",
-        "Packaged": "2021-04-07 09:55:40 UTC; runner",
+        "Packaged": "2021-04-12 20:51:31 UTC; runner",
         "Author": "Colin Fay [cre, aut] (<https://orcid.org/0000-0001-7343-1846>),\n  Vincent Guyader [aut] (<https://orcid.org/0000-0003-0671-9270>,\n    previous maintainer),\n  Sébastien Rochette [aut] (<https://orcid.org/0000-0002-1565-9313>),\n  Cervan Girard [aut] (<https://orcid.org/0000-0002-4816-4624>),\n  Novica Nakov [ctb],\n  David Granjon [ctb],\n  ThinkR [cph]",
         "Maintainer": "Colin Fay <contact@colinfay.me>",
-        "Built": "R 4.0.5; ; 2021-04-07 09:55:41 UTC; unix"
+        "Built": "R 4.0.5; ; 2021-04-12 20:51:31 UTC; unix"
       }
     },
     "here": {
@@ -1699,7 +1699,7 @@
     },
     "pkgload": {
       "Source": "CRAN",
-      "Repository": "https://cloud.r-project.org",
+      "Repository": "https://packagemanager.rstudio.com/cran/__linux__/focal/latest",
       "GithubRepo": null,
       "GithubUsername": null,
       "GithubRef": null,
@@ -1971,7 +1971,7 @@
         "Maintainer": "Jim Hester <jim.hester@rstudio.com>",
         "Repository": "CRAN",
         "Date/Publication": "2021-04-01 16:50:06 UTC",
-        "Built": "R 4.0.5; ; 2021-04-07 09:51:37 UTC; unix"
+        "Built": "R 4.0.5; ; 2021-04-12 20:48:48 UTC; unix"
       }
     },
     "rlang": {
@@ -2324,7 +2324,7 @@
         "Maintainer": "Hadley Wickham <hadley@rstudio.com>",
         "Repository": "CRAN",
         "Date/Publication": "2021-02-14 16:50:03 UTC",
-        "Built": "R 4.0.5; x86_64-pc-linux-gnu; 2021-04-07 09:52:25 UTC; unix"
+        "Built": "R 4.0.5; x86_64-pc-linux-gnu; 2021-04-12 20:49:39 UTC; unix"
       }
     },
     "tibble": {
@@ -2738,7 +2738,7 @@
       "checksum": "4f5e25c94c58a643eb546c2daa5dd47b"
     },
     "Dockerfile": {
-      "checksum": "7653a3aca7d4fda076a6db2cc869b0ba"
+      "checksum": "151ba4646cb44abf964e9004401efa5c"
     },
     "inst/app/www/custom.css": {
       "checksum": "dad83b3d979065c6fc2c28d76e31ffdf"
@@ -2770,275 +2770,14 @@
     "NEWS.md": {
       "checksum": "71cf198dfafa75ce90acc179f750fac4"
     },
-    "packrat/desc/askpass": {
-      "checksum": "a3da6fa28d8a5c09221524db783fa472"
-    },
-    "packrat/desc/attempt": {
-      "checksum": "2ef599206c29b2237653b98d4f0d6f91"
-    },
-    "packrat/desc/base64enc": {
-      "checksum": "027151f5a3173a413d5f37ae19ba37f7"
-    },
-    "packrat/desc/BH": {
-      "checksum": "a406ed81012d0c654ae5211126676f41"
-    },
-    "packrat/desc/brew": {
-      "checksum": "fbe70d7b3ae67ef8371fd97312d36786"
-    },
-    "packrat/desc/brio": {
-      "checksum": "6555d03b4991580948363fcd4897e21c"
-    },
-    "packrat/desc/bslib": {
-      "checksum": "73a3641289ded2e42da88a10a09d7e18"
-    },
-    "packrat/desc/cachem": {
-      "checksum": "197566eaa636f3f60812220819d11e00"
-    },
-    "packrat/desc/callr": {
-      "checksum": "272eb301ef4ce994f8dc2c08abe472c4"
-    },
-    "packrat/desc/cli": {
-      "checksum": "5c03407687a9c49d8c413b45574d4dc0"
-    },
-    "packrat/desc/clipr": {
-      "checksum": "625b695dfc3fffb71823fdb8372a099a"
-    },
-    "packrat/desc/commonmark": {
-      "checksum": "6eddc08da96b7f6f8f10051d842a8487"
-    },
-    "packrat/desc/config": {
-      "checksum": "838edae29d95305bff463db53569063a"
-    },
-    "packrat/desc/cranlogs": {
-      "checksum": "690f40c99918682416a1099a4720067e"
-    },
-    "packrat/desc/crayon": {
-      "checksum": "d448257c19971060cdedc93e36f58563"
-    },
-    "packrat/desc/credentials": {
-      "checksum": "bb51f514231d337da3055613b4a4dfc8"
-    },
-    "packrat/desc/crosstalk": {
-      "checksum": "770b9321d6143871f144d78c23f8ce77"
-    },
-    "packrat/desc/curl": {
-      "checksum": "8187d96c5bbd9a4273d13df75273c6aa"
-    },
-    "packrat/desc/desc": {
-      "checksum": "3194b7cef313d688206aff460bc7d21b"
-    },
-    "packrat/desc/diffobj": {
-      "checksum": "fcbb6f0cf366e9859c3df6068226c5f7"
-    },
-    "packrat/desc/digest": {
-      "checksum": "c93540bb02b00f474fe36d1ffc77ac68"
-    },
-    "packrat/desc/dockerfiler": {
-      "checksum": "cf050fc0154c7718094ca870c782657a"
-    },
-    "packrat/desc/DT": {
-      "checksum": "87c088c18742a57cedc700a4d565ae19"
-    },
-    "packrat/desc/ellipsis": {
-      "checksum": "39f6fa0e95a1f8438ad6b61e40076005"
-    },
-    "packrat/desc/evaluate": {
-      "checksum": "4c7d9665a53a54b16b883a8b5eaa4ffb"
-    },
-    "packrat/desc/fansi": {
-      "checksum": "aeb568c7a9523c0b91a275b4b4a7c707"
-    },
-    "packrat/desc/fastmap": {
-      "checksum": "29fd1412d50b8a8ca9a4c02a01911189"
-    },
-    "packrat/desc/fs": {
-      "checksum": "69e37d90f42cb13c4e1936025d0cffc3"
-    },
-    "packrat/desc/gert": {
-      "checksum": "3632d19b6921acee89632fe911c3dabc"
-    },
-    "packrat/desc/gh": {
-      "checksum": "d584a5151f369ea9ba7a3cbbc56998b1"
-    },
-    "packrat/desc/gitcreds": {
-      "checksum": "a919249dc66b2e76f911debaf9ee4fb0"
-    },
-    "packrat/desc/glue": {
-      "checksum": "a4e0090e668ce4611810fd4e8b6a6341"
-    },
-    "packrat/desc/golem": {
-      "checksum": "68745203a5939a3c91743dc5f8447b66"
-    },
-    "packrat/desc/here": {
-      "checksum": "37eb97b846d21f2387c617987fd94f35"
-    },
-    "packrat/desc/highr": {
-      "checksum": "e17f919367a11fb3b2e1ba3e4b2bd23d"
-    },
-    "packrat/desc/htmltools": {
-      "checksum": "cce635b6a60c684d2faeade713f36482"
-    },
-    "packrat/desc/htmlwidgets": {
-      "checksum": "882bd6b187e3dbbd6494144bfc7592f0"
-    },
-    "packrat/desc/httpuv": {
-      "checksum": "e31d996c5a2ce15f93f7bd8bb2eacd0d"
-    },
-    "packrat/desc/httr": {
-      "checksum": "5e32aaec6dbbe5995f4edb52d555ff9f"
-    },
-    "packrat/desc/ini": {
-      "checksum": "c9ed82afec728f9f94c02a99fffe1795"
-    },
-    "packrat/desc/jquerylib": {
-      "checksum": "e86a858410ac14eaf390fc3fe8cf8ceb"
-    },
-    "packrat/desc/jsonlite": {
-      "checksum": "fdf3e10c15ca3698150d5c1a0aa26b20"
-    },
-    "packrat/desc/knitr": {
-      "checksum": "c823cf0082dcbebc05b4a6c4c2e16d01"
-    },
-    "packrat/desc/later": {
-      "checksum": "87fb7d9a66272178543228c86297c7e3"
-    },
-    "packrat/desc/lazyeval": {
-      "checksum": "11f457cf59d8b806bd073f87e21e908f"
-    },
-    "packrat/desc/lifecycle": {
-      "checksum": "58d236f39847e0255240b3d118b53e21"
-    },
-    "packrat/desc/magrittr": {
-      "checksum": "be6ddb5cfd8e5136bb568d46c59b22d2"
-    },
-    "packrat/desc/markdown": {
-      "checksum": "7338f9cb28ba276dd371161cf22274b7"
-    },
-    "packrat/desc/mime": {
-      "checksum": "c9dde77622545d21785f8e10bb52a756"
-    },
-    "packrat/desc/openssl": {
-      "checksum": "32826808302fb5b918baa7d484a402a4"
-    },
-    "packrat/desc/pillar": {
-      "checksum": "913d660ff34c6ae2f724ce6e4a198b91"
-    },
-    "packrat/desc/pkgconfig": {
-      "checksum": "db03f268d7b556e638670e0bfe2c6269"
-    },
-    "packrat/desc/pkgload": {
-      "checksum": "c3533ea8d08e03b39a2d1eaa8011d952"
-    },
-    "packrat/desc/praise": {
-      "checksum": "3034bf066ac4e9ddb6619ef003032bb9"
-    },
-    "packrat/desc/processx": {
-      "checksum": "d2732b36e8ef2d3e17c35b810b7b200e"
-    },
-    "packrat/desc/promises": {
-      "checksum": "97c9f1e68c9f5319ca48b67a5fcd0d35"
-    },
-    "packrat/desc/ps": {
-      "checksum": "70f36794d523ba1da2f2b5e9294a5853"
-    },
-    "packrat/desc/purrr": {
-      "checksum": "aaeaa7ec408098f8c757741fa3ba1ac2"
-    },
-    "packrat/desc/R6": {
-      "checksum": "5fb2649bd5ec2b98630de22a193c8266"
-    },
-    "packrat/desc/rappdirs": {
-      "checksum": "59643aa25c17f07af689b52138d4104e"
-    },
-    "packrat/desc/Rcpp": {
-      "checksum": "16574a3c5186447950abbc26ac8c801d"
-    },
-    "packrat/desc/rematch2": {
-      "checksum": "e8db965ee765bf2827c59359ce05105c"
-    },
-    "packrat/desc/remotes": {
-      "checksum": "598e9bc025827702eb3b9c6a18141b87"
-    },
-    "packrat/desc/rlang": {
-      "checksum": "3e8b3d1e2d95f71bd300ac2b5f3819d5"
-    },
-    "packrat/desc/roxygen2": {
-      "checksum": "758835a653dc97f00dfebda3dd176502"
-    },
-    "packrat/desc/rprojroot": {
-      "checksum": "a79b74ff8f8a03cfa15d4cbabc48fee3"
-    },
-    "packrat/desc/rstudioapi": {
-      "checksum": "9e8c3693b9566b624086693a1c07eeca"
-    },
-    "packrat/desc/sass": {
-      "checksum": "525dbfbe7b6ec6de9b4d332028ea8b69"
-    },
-    "packrat/desc/shiny": {
-      "checksum": "796a79e44c1726b6da3be57b2850164c"
-    },
-    "packrat/desc/sourcetools": {
-      "checksum": "78401f13250a51603a75633c314e53e5"
-    },
-    "packrat/desc/stringi": {
-      "checksum": "a04a0aa803cf3b0fbed93f369394fd92"
-    },
-    "packrat/desc/stringr": {
-      "checksum": "fec6371101d02af49c06007616a5b634"
-    },
-    "packrat/desc/sys": {
-      "checksum": "2f42f46ea7d8d2911bcdee3bdd0c6551"
-    },
-    "packrat/desc/testthat": {
-      "checksum": "110bc36d63bf8c484942de795be6ad1b"
-    },
-    "packrat/desc/tibble": {
-      "checksum": "e2566a4521c310e3be7ead9cad490e9d"
-    },
-    "packrat/desc/usethis": {
-      "checksum": "c10bc293c9eb0d92e3cec7541ee93cc1"
-    },
-    "packrat/desc/utf8": {
-      "checksum": "13ee8f53b111b4fdf60f978a87b51cb0"
-    },
-    "packrat/desc/vctrs": {
-      "checksum": "9f1950a21f2c5bb3202d294ebe1292f0"
-    },
-    "packrat/desc/waldo": {
-      "checksum": "ea2c8446f69bff6d3c4861c0a1ada24e"
-    },
-    "packrat/desc/whisker": {
-      "checksum": "b48c7597c07bbb3d51e911dd51cbb6d8"
-    },
-    "packrat/desc/withr": {
-      "checksum": "c80d58e7085a1cc2c921d1c1eb15534b"
-    },
-    "packrat/desc/xfun": {
-      "checksum": "bb54bb61146aa31454877b0662c0107a"
-    },
-    "packrat/desc/xml2": {
-      "checksum": "7a42b51b2bc441aacc32d5efd030f3b8"
-    },
-    "packrat/desc/xtable": {
-      "checksum": "90dc04e531b6bce1f2e370dddebf4bfa"
-    },
-    "packrat/desc/yaml": {
-      "checksum": "c891b8f4eb02f9c76460c1de0a441f82"
-    },
-    "packrat/desc/zip": {
-      "checksum": "9879f2442c8728047bd50058841d7bf5"
-    },
-    "packrat/packrat.lock": {
-      "checksum": "f073b8d3a0d036fcc15b00a0c2451ff5"
-    },
     "R/app_config.R": {
       "checksum": "70ec406032db14c4c069d6886e5c21e1"
     },
     "R/app_server.R": {
-      "checksum": "3c8eecfa051620e8788a676d512ec166"
+      "checksum": "7bd74a098db65514a07fb60f7be353fa"
     },
     "R/app_ui.R": {
-      "checksum": "97eaa1ee6f52ffe1d3e17157d42f3d3f"
+      "checksum": "7e32fb8fb28b7daa1428736fce595640"
     },
     "R/mod_main_fct_golem_logs.R": {
       "checksum": "800c07b0ec454cc056a48f98cb19d827"
@@ -3047,7 +2786,7 @@
       "checksum": "13da9a8fb2886a2bb23835bf624f3304"
     },
     "R/mod_main.R": {
-      "checksum": "0b7989dd0427746f41555f9d9cc8cd35"
+      "checksum": "1679c7e42968e4efeee5ad79a101474c"
     },
     "R/run_app.R": {
       "checksum": "0ab94772ee7c29a23cd93c49c134385a"
