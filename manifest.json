@@ -674,7 +674,7 @@
         "Author": "Gábor Csárdi [aut, cre],\n  Kirill Müller [aut],\n  Jim Hester [aut],\n  Maëlle Salmon [ctb] (<https://orcid.org/0000-0002-2815-0399>)",
         "Repository": "CRAN",
         "Date/Publication": "2021-03-05 19:30:02 UTC",
-        "Built": "R 4.0.5; ; 2021-04-13 19:59:32 UTC; unix"
+        "Built": "R 4.0.5; ; 2021-04-13 20:00:45 UTC; unix"
       }
     },
     "diffobj": {
@@ -928,7 +928,7 @@
         "Maintainer": "Jim Hester <james.f.hester@gmail.com>",
         "Repository": "CRAN",
         "Date/Publication": "2020-07-31 21:30:03 UTC",
-        "Built": "R 4.0.5; x86_64-pc-linux-gnu; 2021-04-13 19:59:38 UTC; unix"
+        "Built": "R 4.0.5; x86_64-pc-linux-gnu; 2021-04-13 20:00:52 UTC; unix"
       }
     },
     "gert": {
@@ -1094,10 +1094,10 @@
         "GithubRef": "dev",
         "GithubSHA1": "5b5d6a22271bc3d17ec1e5e701d346c07e7f3287",
         "NeedsCompilation": "no",
-        "Packaged": "2021-04-13 20:01:47 UTC; runner",
+        "Packaged": "2021-04-13 20:03:26 UTC; runner",
         "Author": "Colin Fay [cre, aut] (<https://orcid.org/0000-0001-7343-1846>),\n  Vincent Guyader [aut] (<https://orcid.org/0000-0003-0671-9270>,\n    previous maintainer),\n  Sébastien Rochette [aut] (<https://orcid.org/0000-0002-1565-9313>),\n  Cervan Girard [aut] (<https://orcid.org/0000-0002-4816-4624>),\n  Novica Nakov [ctb],\n  David Granjon [ctb],\n  ThinkR [cph]",
         "Maintainer": "Colin Fay <contact@colinfay.me>",
-        "Built": "R 4.0.5; ; 2021-04-13 20:01:48 UTC; unix"
+        "Built": "R 4.0.5; ; 2021-04-13 20:03:26 UTC; unix"
       }
     },
     "here": {
@@ -1970,7 +1970,7 @@
         "Maintainer": "Jim Hester <jim.hester@rstudio.com>",
         "Repository": "CRAN",
         "Date/Publication": "2021-04-01 16:50:06 UTC",
-        "Built": "R 4.0.5; ; 2021-04-13 19:59:29 UTC; unix"
+        "Built": "R 4.0.5; ; 2021-04-13 20:00:42 UTC; unix"
       }
     },
     "rlang": {
@@ -2323,7 +2323,7 @@
         "Maintainer": "Hadley Wickham <hadley@rstudio.com>",
         "Repository": "CRAN",
         "Date/Publication": "2021-02-14 16:50:03 UTC",
-        "Built": "R 4.0.5; x86_64-pc-linux-gnu; 2021-04-13 20:00:11 UTC; unix"
+        "Built": "R 4.0.5; x86_64-pc-linux-gnu; 2021-04-13 20:01:35 UTC; unix"
       }
     },
     "tibble": {
