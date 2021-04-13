@@ -674,7 +674,7 @@
         "Author": "Gábor Csárdi [aut, cre],\n  Kirill Müller [aut],\n  Jim Hester [aut],\n  Maëlle Salmon [ctb] (<https://orcid.org/0000-0002-2815-0399>)",
         "Repository": "CRAN",
         "Date/Publication": "2021-03-05 19:30:02 UTC",
-        "Built": "R 4.0.5; ; 2021-04-12 21:41:20 UTC; unix"
+        "Built": "R 4.0.5; ; 2021-04-13 19:03:09 UTC; unix"
       }
     },
     "diffobj": {
@@ -928,7 +928,7 @@
         "Maintainer": "Jim Hester <james.f.hester@gmail.com>",
         "Repository": "CRAN",
         "Date/Publication": "2020-07-31 21:30:03 UTC",
-        "Built": "R 4.0.5; x86_64-pc-linux-gnu; 2021-04-12 21:41:28 UTC; unix"
+        "Built": "R 4.0.5; x86_64-pc-linux-gnu; 2021-04-13 19:03:15 UTC; unix"
       }
     },
     "gert": {
@@ -1064,11 +1064,11 @@
       "GithubRepo": "golem",
       "GithubUsername": "ThinkR-open",
       "GithubRef": "dev",
-      "GithubSha1": "8f55883d6b6d694cdc2181329359dbaa212a0e44",
+      "GithubSha1": "2b6a7659b91ff7e51db1b689c3a5db747e622b57",
       "description": {
         "Package": "golem",
         "Title": "A Framework for Robust Shiny Applications",
-        "Version": "0.3.0",
+        "Version": "0.3.1",
         "Authors@R": "\n    c(person(given = \"Colin\",\n             family = \"Fay\",\n             role = c(\"cre\", \"aut\"),\n             email = \"contact@colinfay.me\",\n             comment = c(ORCID = \"0000-0001-7343-1846\")),\n      person(given = \"Vincent\",\n             family = \"Guyader\",\n             role = \"aut\",\n             email = \"vincent@thinkr.fr\",\n             comment = c(ORCID = \"0000-0003-0671-9270\",\n             \"previous maintainer\"\n             )),\n      person(given = \"Sébastien\",\n             family = \"Rochette\",\n             role = \"aut\",\n             email = \"sebastien@thinkr.fr\",\n             comment = c(ORCID = \"0000-0002-1565-9313\")),\n      person(given = \"Cervan\",\n             family = \"Girard\",\n             role = \"aut\",\n             email = \"cervan@thinkr.fr\",\n             comment = c(ORCID = \"0000-0002-4816-4624\")),\n      person(given = \"Novica\",\n             family = \"Nakov\",\n             role = \"ctb\",\n             email = \"nnovica@gmail.com\"),\n      person(given = \"David\",\n             family = \"Granjon\",\n             role = \"ctb\",\n             email = \"dgranjon@ymail.com\"),   \n      person(given = \"ThinkR\",\n             role = \"cph\"))",
         "Description": "An opinionated framework for building a\n    production-ready 'Shiny' application. This package contains a series\n    of tools for building a robust 'Shiny' application from start to\n    finish.",
         "License": "MIT + file LICENSE",
@@ -1088,16 +1088,16 @@
         "RemoteRepo": "golem",
         "RemoteUsername": "ThinkR-open",
         "RemoteRef": "dev",
-        "RemoteSha": "8f55883d6b6d694cdc2181329359dbaa212a0e44",
+        "RemoteSha": "2b6a7659b91ff7e51db1b689c3a5db747e622b57",
         "GithubRepo": "golem",
         "GithubUsername": "ThinkR-open",
         "GithubRef": "dev",
-        "GithubSHA1": "8f55883d6b6d694cdc2181329359dbaa212a0e44",
+        "GithubSHA1": "2b6a7659b91ff7e51db1b689c3a5db747e622b57",
         "NeedsCompilation": "no",
-        "Packaged": "2021-04-12 21:44:15 UTC; runner",
+        "Packaged": "2021-04-13 19:05:22 UTC; runner",
         "Author": "Colin Fay [cre, aut] (<https://orcid.org/0000-0001-7343-1846>),\n  Vincent Guyader [aut] (<https://orcid.org/0000-0003-0671-9270>,\n    previous maintainer),\n  Sébastien Rochette [aut] (<https://orcid.org/0000-0002-1565-9313>),\n  Cervan Girard [aut] (<https://orcid.org/0000-0002-4816-4624>),\n  Novica Nakov [ctb],\n  David Granjon [ctb],\n  ThinkR [cph]",
         "Maintainer": "Colin Fay <contact@colinfay.me>",
-        "Built": "R 4.0.5; ; 2021-04-12 21:44:16 UTC; unix"
+        "Built": "R 4.0.5; ; 2021-04-13 19:05:22 UTC; unix"
       }
     },
     "here": {
@@ -1636,8 +1636,8 @@
       }
     },
     "pillar": {
-      "Source": "RSPM",
-      "Repository": "https://packagemanager.rstudio.com/cran/__linux__/focal/latest",
+      "Source": "CRAN",
+      "Repository": "https://cloud.r-project.org",
       "GithubRepo": null,
       "GithubUsername": null,
       "GithubRef": null,
@@ -1645,28 +1645,27 @@
       "description": {
         "Package": "pillar",
         "Title": "Coloured Formatting for Columns",
-        "Version": "1.5.1",
+        "Version": "1.6.0",
         "Authors@R": "\n    c(person(given = \"Kirill\",\n             family = \"M\\u00fcller\",\n             role = c(\"aut\", \"cre\"),\n             email = \"krlmlr+r@mailbox.org\"),\n      person(given = \"Hadley\",\n             family = \"Wickham\",\n             role = \"aut\"),\n      person(given = \"RStudio\",\n             role = \"cph\"))",
         "Description": "Provides 'pillar' and 'colonnade' generics designed\n    for formatting columns of data using the full range of colours\n    provided by modern terminals.",
         "License": "MIT + file LICENSE",
         "URL": "https://pillar.r-lib.org/, https://github.com/r-lib/pillar",
         "BugReports": "https://github.com/r-lib/pillar/issues",
         "Imports": "cli, crayon (>= 1.3.4), ellipsis, fansi, lifecycle, rlang (>=\n0.3.0), utf8 (>= 1.1.0), utils, vctrs (>= 0.2.0)",
-        "Suggests": "bit64, debugme, DiagrammeR, knitr, lubridate, nycflights13,\npalmerpenguins, rmarkdown, survival, testthat (>= 3.0.2),\ntibble, withr",
+        "Suggests": "bit64, debugme, DiagrammeR, dplyr, ggplot2, knitr, lubridate,\nnycflights13, palmerpenguins, rmarkdown, scales, stringi,\nsurvival, testthat (>= 3.0.2), tibble, withr",
         "VignetteBuilder": "knitr",
         "Encoding": "UTF-8",
-        "LazyData": "true",
         "RoxygenNote": "7.1.1.9001",
         "Config/testthat/edition": "3",
         "Config/testthat/parallel": "true",
         "Config/testthat/start-first": "format_multi_fuzz, format_multi_fuzz_2,\nformat_multi, ctl_colonnade, ctl_colonnade_1, ctl_colonnade_2",
         "NeedsCompilation": "no",
-        "Packaged": "2021-03-05 16:24:18 UTC; kirill",
+        "Packaged": "2021-04-13 04:37:32 UTC; kirill",
         "Author": "Kirill Müller [aut, cre],\n  Hadley Wickham [aut],\n  RStudio [cph]",
         "Maintainer": "Kirill Müller <krlmlr+r@mailbox.org>",
-        "Repository": "RSPM",
-        "Date/Publication": "2021-03-05 18:20:02 UTC",
-        "Built": "R 4.0.3; ; 2021-03-08 11:14:19 UTC; unix"
+        "Repository": "CRAN",
+        "Date/Publication": "2021-04-13 07:20:02 UTC",
+        "Built": "R 4.0.5; ; 2021-04-13 19:01:29 UTC; unix"
       }
     },
     "pkgconfig": {
@@ -1971,7 +1970,7 @@
         "Maintainer": "Jim Hester <jim.hester@rstudio.com>",
         "Repository": "CRAN",
         "Date/Publication": "2021-04-01 16:50:06 UTC",
-        "Built": "R 4.0.5; ; 2021-04-12 21:41:16 UTC; unix"
+        "Built": "R 4.0.5; ; 2021-04-13 19:03:06 UTC; unix"
       }
     },
     "rlang": {
@@ -2324,7 +2323,7 @@
         "Maintainer": "Hadley Wickham <hadley@rstudio.com>",
         "Repository": "CRAN",
         "Date/Publication": "2021-02-14 16:50:03 UTC",
-        "Built": "R 4.0.5; x86_64-pc-linux-gnu; 2021-04-12 21:42:10 UTC; unix"
+        "Built": "R 4.0.5; x86_64-pc-linux-gnu; 2021-04-13 19:03:48 UTC; unix"
       }
     },
     "tibble": {
@@ -2738,7 +2737,7 @@
       "checksum": "4f5e25c94c58a643eb546c2daa5dd47b"
     },
     "Dockerfile": {
-      "checksum": "223448aef913f8b949eb38dd403bfb71"
+      "checksum": "e2a950ea6327d6ad933fca02da01d67e"
     },
     "inst/app/www/custom.css": {
       "checksum": "dad83b3d979065c6fc2c28d76e31ffdf"
