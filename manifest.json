@@ -613,7 +613,7 @@
         "Author": "Gábor Csárdi [aut, cre],\n  Kirill Müller [aut],\n  Jim Hester [aut],\n  Maëlle Salmon [ctb] (<https://orcid.org/0000-0002-2815-0399>)",
         "Repository": "CRAN",
         "Date/Publication": "2021-03-05 19:30:02 UTC",
-        "Built": "R 4.0.5; ; 2021-04-14 21:49:34 UTC; unix"
+        "Built": "R 4.0.5; ; 2021-04-15 20:02:14 UTC; unix"
       }
     },
     "diffobj": {
@@ -867,7 +867,7 @@
         "Maintainer": "Jim Hester <james.f.hester@gmail.com>",
         "Repository": "CRAN",
         "Date/Publication": "2020-07-31 21:30:03 UTC",
-        "Built": "R 4.0.5; x86_64-pc-linux-gnu; 2021-04-14 21:49:40 UTC; unix"
+        "Built": "R 4.0.5; x86_64-pc-linux-gnu; 2021-04-15 20:02:22 UTC; unix"
       }
     },
     "gert": {
@@ -1003,7 +1003,7 @@
       "GithubRepo": "golem",
       "GithubUsername": "ThinkR-open",
       "GithubRef": "dev",
-      "GithubSha1": "173dde43393e33f9b01ca0b4c73c2b424f3808c0",
+      "GithubSha1": "f160eb0ce0e4aa60a2e33291baeeced8a3cae5f7",
       "description": {
         "Package": "golem",
         "Title": "A Framework for Robust Shiny Applications",
@@ -1026,16 +1026,16 @@
         "RemoteRepo": "golem",
         "RemoteUsername": "ThinkR-open",
         "RemoteRef": "dev",
-        "RemoteSha": "173dde43393e33f9b01ca0b4c73c2b424f3808c0",
+        "RemoteSha": "f160eb0ce0e4aa60a2e33291baeeced8a3cae5f7",
         "GithubRepo": "golem",
         "GithubUsername": "ThinkR-open",
         "GithubRef": "dev",
-        "GithubSHA1": "173dde43393e33f9b01ca0b4c73c2b424f3808c0",
+        "GithubSHA1": "f160eb0ce0e4aa60a2e33291baeeced8a3cae5f7",
         "NeedsCompilation": "no",
-        "Packaged": "2021-04-14 21:51:43 UTC; runner",
+        "Packaged": "2021-04-15 20:04:57 UTC; runner",
         "Author": "Colin Fay [cre, aut] (<https://orcid.org/0000-0001-7343-1846>),\n  Vincent Guyader [aut] (<https://orcid.org/0000-0003-0671-9270>,\n    previous maintainer),\n  Sébastien Rochette [aut] (<https://orcid.org/0000-0002-1565-9313>),\n  Cervan Girard [aut] (<https://orcid.org/0000-0002-4816-4624>),\n  Novica Nakov [ctb],\n  David Granjon [ctb],\n  ThinkR [cph]",
         "Maintainer": "Colin Fay <contact@colinfay.me>",
-        "Built": "R 4.0.5; ; 2021-04-14 21:51:43 UTC; unix"
+        "Built": "R 4.0.5; ; 2021-04-15 20:04:57 UTC; unix"
       }
     },
     "here": {
@@ -1290,7 +1290,7 @@
     },
     "knitr": {
       "Source": "CRAN",
-      "Repository": "https://cloud.r-project.org",
+      "Repository": "https://packagemanager.rstudio.com/cran/__linux__/focal/latest",
       "GithubRepo": null,
       "GithubUsername": null,
       "GithubRef": null,
@@ -1319,7 +1319,7 @@
         "Maintainer": "Yihui Xie <xie@yihui.name>",
         "Repository": "CRAN",
         "Date/Publication": "2021-04-14 14:40:14 UTC",
-        "Built": "R 4.0.5; ; 2021-04-14 21:47:56 UTC; unix"
+        "Built": "R 4.0.5; ; 2021-04-14 21:53:03 UTC; unix"
       }
     },
     "later": {
@@ -1514,7 +1514,7 @@
     },
     "pillar": {
       "Source": "CRAN",
-      "Repository": "https://cloud.r-project.org",
+      "Repository": "https://packagemanager.rstudio.com/cran/__linux__/focal/latest",
       "GithubRepo": null,
       "GithubUsername": null,
       "GithubRef": null,
@@ -1847,7 +1847,7 @@
         "Maintainer": "Jim Hester <jim.hester@rstudio.com>",
         "Repository": "CRAN",
         "Date/Publication": "2021-04-01 16:50:06 UTC",
-        "Built": "R 4.0.5; ; 2021-04-14 21:49:31 UTC; unix"
+        "Built": "R 4.0.5; ; 2021-04-15 20:02:11 UTC; unix"
       }
     },
     "rlang": {
@@ -2200,7 +2200,7 @@
         "Maintainer": "Hadley Wickham <hadley@rstudio.com>",
         "Repository": "CRAN",
         "Date/Publication": "2021-02-14 16:50:03 UTC",
-        "Built": "R 4.0.5; x86_64-pc-linux-gnu; 2021-04-14 21:50:14 UTC; unix"
+        "Built": "R 4.0.5; x86_64-pc-linux-gnu; 2021-04-15 20:03:04 UTC; unix"
       }
     },
     "tibble": {
@@ -2589,9 +2589,6 @@
     ".Rbuildignore": {
       "checksum": "1ab1c8a26141aa70460bf14a1e21dc96"
     },
-    ".Rprofile": {
-      "checksum": "79f69b0e33a1c5b6b5d8ae6dd5635469"
-    },
     "app.R": {
       "checksum": "84980ccce8273d2a0c3fc1ac3bfbe436"
     },
@@ -2614,7 +2611,7 @@
       "checksum": "4f5e25c94c58a643eb546c2daa5dd47b"
     },
     "Dockerfile": {
-      "checksum": "332074922aa7d92671ef2623cd654fc6"
+      "checksum": "2bb4bb00b9596c4406451549f8b00803"
     },
     "inst/app/www/custom.css": {
       "checksum": "dad83b3d979065c6fc2c28d76e31ffdf"
@@ -2645,6 +2642,9 @@
     },
     "NEWS.md": {
       "checksum": "71cf198dfafa75ce90acc179f750fac4"
+    },
+    "R/_disable_autoload.R": {
+      "checksum": "1178c335d6c11555fd1c4ec6098dfee6"
     },
     "R/app_config.R": {
       "checksum": "70ec406032db14c4c069d6886e5c21e1"
