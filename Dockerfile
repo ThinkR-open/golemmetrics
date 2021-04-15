@@ -10,9 +10,8 @@ RUN Rscript -e 'remotes::install_version("attempt",upgrade="never", version = "0
 RUN Rscript -e 'remotes::install_version("testthat",upgrade="never", version = "3.0.2")'
 RUN Rscript -e 'remotes::install_version("shiny",upgrade="never", version = "1.6.0")'
 RUN Rscript -e 'remotes::install_version("config",upgrade="never", version = "0.3.1")'
-RUN Rscript -e 'remotes::install_version("DT",upgrade="never", version = "0.18")'
 RUN Rscript -e 'remotes::install_version("cranlogs",upgrade="never", version = "2.1.1")'
-RUN Rscript -e 'remotes::install_github("ThinkR-open/golem@780e0c447ff7eb35e70b20f08dac4228fce3c82a")'
+RUN Rscript -e 'remotes::install_github("ThinkR-open/golem@88f04cec25824349aa5497504d1e1161b22aeb4a")'
 RUN mkdir /build_zone
 ADD . /build_zone
 WORKDIR /build_zone
