@@ -585,7 +585,7 @@
         "Author": "Gábor Csárdi [aut, cre],\n  Kirill Müller [aut],\n  Jim Hester [aut],\n  Maëlle Salmon [ctb] (<https://orcid.org/0000-0002-2815-0399>)",
         "Repository": "CRAN",
         "Date/Publication": "2021-03-05 19:30:02 UTC",
-        "Built": "R 4.0.5; ; 2021-04-30 10:12:39 UTC; unix"
+        "Built": "R 4.0.5; ; 2021-04-30 10:12:51 UTC; unix"
       }
     },
     "diffobj": {
@@ -710,7 +710,7 @@
         "Maintainer": "Hadley Wickham <hadley@rstudio.com>",
         "Repository": "CRAN",
         "Date/Publication": "2021-04-29 12:40:02 UTC",
-        "Built": "R 4.0.5; x86_64-pc-linux-gnu; 2021-04-30 10:10:46 UTC; unix"
+        "Built": "R 4.0.5; x86_64-pc-linux-gnu; 2021-04-30 10:10:39 UTC; unix"
       }
     },
     "evaluate": {
@@ -838,7 +838,7 @@
         "Maintainer": "Jim Hester <james.f.hester@gmail.com>",
         "Repository": "CRAN",
         "Date/Publication": "2020-07-31 21:30:03 UTC",
-        "Built": "R 4.0.5; x86_64-pc-linux-gnu; 2021-04-30 10:12:45 UTC; unix"
+        "Built": "R 4.0.5; x86_64-pc-linux-gnu; 2021-04-30 10:12:58 UTC; unix"
       }
     },
     "gert": {
@@ -1003,10 +1003,10 @@
         "GithubRef": "dev",
         "GithubSHA1": "6d08933d4748bf61da360bf4f190e2800988aac0",
         "NeedsCompilation": "no",
-        "Packaged": "2021-04-30 10:14:56 UTC; runner",
+        "Packaged": "2021-04-30 10:15:27 UTC; runner",
         "Author": "Colin Fay [cre, aut] (<https://orcid.org/0000-0001-7343-1846>),\n  Vincent Guyader [aut] (<https://orcid.org/0000-0003-0671-9270>,\n    previous maintainer),\n  Sébastien Rochette [aut] (<https://orcid.org/0000-0002-1565-9313>),\n  Cervan Girard [aut] (<https://orcid.org/0000-0002-4816-4624>),\n  Novica Nakov [ctb],\n  David Granjon [ctb],\n  ThinkR [cph]",
         "Maintainer": "Colin Fay <contact@colinfay.me>",
-        "Built": "R 4.0.5; ; 2021-04-30 10:14:57 UTC; unix"
+        "Built": "R 4.0.5; ; 2021-04-30 10:15:28 UTC; unix"
       }
     },
     "here": {
@@ -1820,7 +1820,7 @@
         "Maintainer": "Jim Hester <jim.hester@rstudio.com>",
         "Repository": "CRAN",
         "Date/Publication": "2021-04-01 16:50:06 UTC",
-        "Built": "R 4.0.5; ; 2021-04-30 10:12:36 UTC; unix"
+        "Built": "R 4.0.5; ; 2021-04-30 10:12:48 UTC; unix"
       }
     },
     "rlang": {
@@ -2173,7 +2173,7 @@
         "Maintainer": "Hadley Wickham <hadley@rstudio.com>",
         "Repository": "CRAN",
         "Date/Publication": "2021-02-14 16:50:03 UTC",
-        "Built": "R 4.0.5; x86_64-pc-linux-gnu; 2021-04-30 10:13:19 UTC; unix"
+        "Built": "R 4.0.5; x86_64-pc-linux-gnu; 2021-04-30 10:13:36 UTC; unix"
       }
     },
     "tibble": {
@@ -2303,7 +2303,7 @@
         "Maintainer": "Lionel Henry <lionel@rstudio.com>",
         "Repository": "CRAN",
         "Date/Publication": "2021-04-29 16:00:03 UTC",
-        "Built": "R 4.0.5; x86_64-pc-linux-gnu; 2021-04-30 10:10:47 UTC; unix"
+        "Built": "R 4.0.5; x86_64-pc-linux-gnu; 2021-04-30 10:10:41 UTC; unix"
       }
     },
     "waldo": {
