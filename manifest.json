@@ -304,7 +304,7 @@
     },
     "cli": {
       "Source": "CRAN",
-      "Repository": "https://cloud.r-project.org",
+      "Repository": "https://packagemanager.rstudio.com/cran/__linux__/focal/latest",
       "GithubRepo": null,
       "GithubUsername": null,
       "GithubRef": null,
@@ -585,7 +585,7 @@
         "Author": "Gábor Csárdi [aut, cre],\n  Kirill Müller [aut],\n  Jim Hester [aut],\n  Maëlle Salmon [ctb] (<https://orcid.org/0000-0002-2815-0399>)",
         "Repository": "CRAN",
         "Date/Publication": "2021-03-05 19:30:02 UTC",
-        "Built": "R 4.0.5; ; 2021-04-28 11:57:01 UTC; unix"
+        "Built": "R 4.0.5; ; 2021-04-30 10:12:39 UTC; unix"
       }
     },
     "diffobj": {
@@ -684,34 +684,33 @@
       }
     },
     "ellipsis": {
-      "Source": "RSPM",
-      "Repository": "https://packagemanager.rstudio.com/cran/__linux__/focal/latest",
+      "Source": "CRAN",
+      "Repository": "https://cloud.r-project.org",
       "GithubRepo": null,
       "GithubUsername": null,
       "GithubRef": null,
       "GithubSha1": null,
       "description": {
         "Package": "ellipsis",
-        "Version": "0.3.1",
+        "Version": "0.3.2",
         "Title": "Tools for Working with ...",
         "Description": "The ellipsis is a powerful tool for extending functions. Unfortunately \n    this power comes at a cost: misspelled arguments will be silently ignored. \n    The ellipsis package provides a collection of functions to catch problems\n    and alert the user.",
         "Authors@R": "c(\n      person(\"Hadley\", \"Wickham\", , \"hadley@rstudio.com\", role = c(\"aut\", \"cre\")),\n      person(\"RStudio\", role = \"cph\")\n    )",
-        "License": "GPL-3",
+        "License": "MIT + file LICENSE",
         "Encoding": "UTF-8",
-        "LazyData": "true",
-        "RoxygenNote": "7.1.0",
+        "RoxygenNote": "7.1.1",
         "URL": "https://ellipsis.r-lib.org, https://github.com/r-lib/ellipsis",
         "BugReports": "https://github.com/r-lib/ellipsis/issues",
         "Depends": "R (>= 3.2)",
         "Imports": "rlang (>= 0.3.0)",
         "Suggests": "covr, testthat",
         "NeedsCompilation": "yes",
-        "Packaged": "2020-05-15 05:57:33 UTC; lionel",
+        "Packaged": "2021-04-29 12:06:44 UTC; lionel",
         "Author": "Hadley Wickham [aut, cre],\n  RStudio [cph]",
         "Maintainer": "Hadley Wickham <hadley@rstudio.com>",
-        "Repository": "RSPM",
-        "Date/Publication": "2020-05-15 14:10:06 UTC",
-        "Built": "R 4.0.3; x86_64-pc-linux-gnu; 2021-02-11 22:27:39 UTC; unix"
+        "Repository": "CRAN",
+        "Date/Publication": "2021-04-29 12:40:02 UTC",
+        "Built": "R 4.0.5; x86_64-pc-linux-gnu; 2021-04-30 10:10:46 UTC; unix"
       }
     },
     "evaluate": {
@@ -839,7 +838,7 @@
         "Maintainer": "Jim Hester <james.f.hester@gmail.com>",
         "Repository": "CRAN",
         "Date/Publication": "2020-07-31 21:30:03 UTC",
-        "Built": "R 4.0.5; x86_64-pc-linux-gnu; 2021-04-28 11:57:08 UTC; unix"
+        "Built": "R 4.0.5; x86_64-pc-linux-gnu; 2021-04-30 10:12:45 UTC; unix"
       }
     },
     "gert": {
@@ -975,7 +974,7 @@
       "GithubRepo": "golem",
       "GithubUsername": "ThinkR-open",
       "GithubRef": "dev",
-      "GithubSha1": "ad768fd1969d68c3657b9bf77df4f94ac79c7211",
+      "GithubSha1": "6d08933d4748bf61da360bf4f190e2800988aac0",
       "description": {
         "Package": "golem",
         "Title": "A Framework for Robust Shiny Applications",
@@ -986,7 +985,7 @@
         "URL": "https://github.com/ThinkR-open/golem",
         "BugReports": "https://github.com/ThinkR-open/golem/issues",
         "Depends": "R (>= 3.0)",
-        "Imports": "attempt (>= 0.3.0), cli, config, crayon, desc, dockerfiler,\nfs, here, htmltools, jsonlite, pkgload, remotes, rlang,\nroxygen2, rstudioapi, shiny (>= 1.5.0), testthat, usethis,\nutils, yaml",
+        "Imports": "attempt (>= 0.3.0), cli (>= 2.0.0), config, crayon, desc,\ndockerfiler, fs, here, htmltools, jsonlite, pkgload, remotes,\nrlang, roxygen2, rstudioapi, shiny (>= 1.5.0), testthat,\nusethis, utils, yaml",
         "Suggests": "covr, devtools, glue, knitr, pkgdown, purrr, rcmdcheck,\nrmarkdown, spelling, stringr, tools, withr, pkgbuild, processx,\nrsconnect",
         "VignetteBuilder": "knitr",
         "Encoding": "UTF-8",
@@ -998,16 +997,16 @@
         "RemoteRepo": "golem",
         "RemoteUsername": "ThinkR-open",
         "RemoteRef": "dev",
-        "RemoteSha": "ad768fd1969d68c3657b9bf77df4f94ac79c7211",
+        "RemoteSha": "6d08933d4748bf61da360bf4f190e2800988aac0",
         "GithubRepo": "golem",
         "GithubUsername": "ThinkR-open",
         "GithubRef": "dev",
-        "GithubSHA1": "ad768fd1969d68c3657b9bf77df4f94ac79c7211",
+        "GithubSHA1": "6d08933d4748bf61da360bf4f190e2800988aac0",
         "NeedsCompilation": "no",
-        "Packaged": "2021-04-28 12:00:00 UTC; runner",
+        "Packaged": "2021-04-30 10:14:56 UTC; runner",
         "Author": "Colin Fay [cre, aut] (<https://orcid.org/0000-0001-7343-1846>),\n  Vincent Guyader [aut] (<https://orcid.org/0000-0003-0671-9270>,\n    previous maintainer),\n  Sébastien Rochette [aut] (<https://orcid.org/0000-0002-1565-9313>),\n  Cervan Girard [aut] (<https://orcid.org/0000-0002-4816-4624>),\n  Novica Nakov [ctb],\n  David Granjon [ctb],\n  ThinkR [cph]",
         "Maintainer": "Colin Fay <contact@colinfay.me>",
-        "Built": "R 4.0.5; ; 2021-04-28 12:00:00 UTC; unix"
+        "Built": "R 4.0.5; ; 2021-04-30 10:14:57 UTC; unix"
       }
     },
     "here": {
@@ -1205,7 +1204,7 @@
     },
     "jquerylib": {
       "Source": "CRAN",
-      "Repository": "https://cloud.r-project.org",
+      "Repository": "https://packagemanager.rstudio.com/cran/__linux__/focal/latest",
       "GithubRepo": null,
       "GithubUsername": null,
       "GithubRef": null,
@@ -1821,7 +1820,7 @@
         "Maintainer": "Jim Hester <jim.hester@rstudio.com>",
         "Repository": "CRAN",
         "Date/Publication": "2021-04-01 16:50:06 UTC",
-        "Built": "R 4.0.5; ; 2021-04-28 11:56:57 UTC; unix"
+        "Built": "R 4.0.5; ; 2021-04-30 10:12:36 UTC; unix"
       }
     },
     "rlang": {
@@ -2174,7 +2173,7 @@
         "Maintainer": "Hadley Wickham <hadley@rstudio.com>",
         "Repository": "CRAN",
         "Date/Publication": "2021-02-14 16:50:03 UTC",
-        "Built": "R 4.0.5; x86_64-pc-linux-gnu; 2021-04-28 11:57:47 UTC; unix"
+        "Built": "R 4.0.5; x86_64-pc-linux-gnu; 2021-04-30 10:13:19 UTC; unix"
       }
     },
     "tibble": {
@@ -2276,8 +2275,8 @@
       }
     },
     "vctrs": {
-      "Source": "RSPM",
-      "Repository": "https://packagemanager.rstudio.com/cran/__linux__/focal/latest",
+      "Source": "CRAN",
+      "Repository": "https://cloud.r-project.org",
       "GithubRepo": null,
       "GithubUsername": null,
       "GithubRef": null,
@@ -2285,7 +2284,7 @@
       "description": {
         "Package": "vctrs",
         "Title": "Vector Helpers",
-        "Version": "0.3.7",
+        "Version": "0.3.8",
         "Authors@R": "\n    c(person(given = \"Hadley\",\n             family = \"Wickham\",\n             role = \"aut\",\n             email = \"hadley@rstudio.com\"),\n      person(given = \"Lionel\",\n             family = \"Henry\",\n             role = c(\"aut\", \"cre\"),\n             email = \"lionel@rstudio.com\"),\n      person(given = \"Davis\",\n             family = \"Vaughan\",\n             role = \"aut\",\n             email = \"davis@rstudio.com\"),\n      person(given = \"data.table team\",\n             role = \"cph\",\n             comment = \"Radix sort based on data.table's forder() and their contribution to R's order()\"),\n      person(given = \"RStudio\",\n             role = \"cph\"))",
         "Description": "Defines new notions of prototype and size that are\n    used to provide tools for consistent and well-founded type-coercion\n    and size-recycling, and are in turn connected to ideas of type- and\n    size-stability useful for analysing function interfaces.",
         "License": "MIT + file LICENSE",
@@ -2299,12 +2298,12 @@
         "Language": "en-GB",
         "RoxygenNote": "7.1.1",
         "NeedsCompilation": "yes",
-        "Packaged": "2021-03-29 09:15:46 UTC; lionel",
+        "Packaged": "2021-04-29 15:14:11 UTC; lionel",
         "Author": "Hadley Wickham [aut],\n  Lionel Henry [aut, cre],\n  Davis Vaughan [aut],\n  data.table team [cph] (Radix sort based on data.table's forder() and\n    their contribution to R's order()),\n  RStudio [cph]",
         "Maintainer": "Lionel Henry <lionel@rstudio.com>",
-        "Repository": "RSPM",
-        "Date/Publication": "2021-03-29 10:20:05 UTC",
-        "Built": "R 4.0.4; x86_64-pc-linux-gnu; 2021-03-30 10:56:53 UTC; unix"
+        "Repository": "CRAN",
+        "Date/Publication": "2021-04-29 16:00:03 UTC",
+        "Built": "R 4.0.5; x86_64-pc-linux-gnu; 2021-04-30 10:10:47 UTC; unix"
       }
     },
     "waldo": {
@@ -2583,7 +2582,7 @@
       "checksum": "4f5e25c94c58a643eb546c2daa5dd47b"
     },
     "Dockerfile": {
-      "checksum": "99e2ddef2855778d0230ce342ba3ac0f"
+      "checksum": "56c991b5f2a054367d0e81061ec0b3f7"
     },
     "inst/app/www/custom.css": {
       "checksum": "dad83b3d979065c6fc2c28d76e31ffdf"
