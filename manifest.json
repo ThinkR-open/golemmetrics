@@ -583,7 +583,7 @@
         "Author": "Gábor Csárdi [aut, cre],\n  Kirill Müller [aut],\n  Jim Hester [aut],\n  Maëlle Salmon [ctb] (<https://orcid.org/0000-0002-2815-0399>)",
         "Repository": "CRAN",
         "Date/Publication": "2021-03-05 19:30:02 UTC",
-        "Built": "R 4.1.0; ; 2021-05-21 10:15:10 UTC; unix"
+        "Built": "R 4.1.0; ; 2021-05-21 10:41:42 UTC; unix"
       }
     },
     "diffobj": {
@@ -836,7 +836,7 @@
         "Maintainer": "Jim Hester <james.f.hester@gmail.com>",
         "Repository": "CRAN",
         "Date/Publication": "2020-07-31 21:30:03 UTC",
-        "Built": "R 4.1.0; x86_64-pc-linux-gnu; 2021-05-21 10:15:17 UTC; unix"
+        "Built": "R 4.1.0; x86_64-pc-linux-gnu; 2021-05-21 10:41:49 UTC; unix"
       }
     },
     "gert": {
@@ -972,7 +972,7 @@
       "GithubRepo": "golem",
       "GithubUsername": "ThinkR-open",
       "GithubRef": "dev",
-      "GithubSha1": "7c556bf9160a65f1d7a2de38e8770f7fa3768479",
+      "GithubSha1": "dcd7dccfe4f7e212e6663eb7c54c58609430e8bb",
       "description": {
         "Package": "golem",
         "Title": "A Framework for Robust Shiny Applications",
@@ -995,16 +995,16 @@
         "RemoteRepo": "golem",
         "RemoteUsername": "ThinkR-open",
         "RemoteRef": "dev",
-        "RemoteSha": "7c556bf9160a65f1d7a2de38e8770f7fa3768479",
+        "RemoteSha": "dcd7dccfe4f7e212e6663eb7c54c58609430e8bb",
         "GithubRepo": "golem",
         "GithubUsername": "ThinkR-open",
         "GithubRef": "dev",
-        "GithubSHA1": "7c556bf9160a65f1d7a2de38e8770f7fa3768479",
+        "GithubSHA1": "dcd7dccfe4f7e212e6663eb7c54c58609430e8bb",
         "NeedsCompilation": "no",
-        "Packaged": "2021-05-21 10:18:09 UTC; runner",
+        "Packaged": "2021-05-21 10:44:03 UTC; runner",
         "Author": "Colin Fay [cre, aut] (<https://orcid.org/0000-0001-7343-1846>),\n  Vincent Guyader [aut] (<https://orcid.org/0000-0003-0671-9270>,\n    previous maintainer),\n  Sébastien Rochette [aut] (<https://orcid.org/0000-0002-1565-9313>),\n  Cervan Girard [aut] (<https://orcid.org/0000-0002-4816-4624>),\n  Novica Nakov [ctb],\n  David Granjon [ctb],\n  ThinkR [cph]",
         "Maintainer": "Colin Fay <contact@colinfay.me>",
-        "Built": "R 4.1.0; ; 2021-05-21 10:18:09 UTC; unix"
+        "Built": "R 4.1.0; ; 2021-05-21 10:44:04 UTC; unix"
       }
     },
     "here": {
@@ -1818,7 +1818,7 @@
         "Maintainer": "Jim Hester <jim.hester@rstudio.com>",
         "Repository": "CRAN",
         "Date/Publication": "2021-04-01 16:50:06 UTC",
-        "Built": "R 4.1.0; ; 2021-05-21 10:15:07 UTC; unix"
+        "Built": "R 4.1.0; ; 2021-05-21 10:41:40 UTC; unix"
       }
     },
     "rlang": {
@@ -2171,7 +2171,7 @@
         "Maintainer": "Hadley Wickham <hadley@rstudio.com>",
         "Repository": "CRAN",
         "Date/Publication": "2021-02-14 16:50:03 UTC",
-        "Built": "R 4.1.0; x86_64-pc-linux-gnu; 2021-05-21 10:15:59 UTC; unix"
+        "Built": "R 4.1.0; x86_64-pc-linux-gnu; 2021-05-21 10:42:23 UTC; unix"
       }
     },
     "tibble": {
@@ -2579,7 +2579,7 @@
       "checksum": "4f5e25c94c58a643eb546c2daa5dd47b"
     },
     "Dockerfile": {
-      "checksum": "c53c704c9f2449683ac8c7d6f7c82931"
+      "checksum": "ae204bdc9d584ac41eda4e6c0b5a5a46"
     },
     "inst/app/www/custom.css": {
       "checksum": "dad83b3d979065c6fc2c28d76e31ffdf"
