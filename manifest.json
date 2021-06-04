@@ -583,7 +583,7 @@
         "Author": "Gábor Csárdi [aut, cre],\n  Kirill Müller [aut],\n  Jim Hester [aut],\n  Maëlle Salmon [ctb] (<https://orcid.org/0000-0002-2815-0399>)",
         "Repository": "CRAN",
         "Date/Publication": "2021-03-05 19:30:02 UTC",
-        "Built": "R 4.1.0; ; 2021-05-21 10:44:07 UTC; unix"
+        "Built": "R 4.1.0; ; 2021-06-04 09:02:48 UTC; unix"
       }
     },
     "diffobj": {
@@ -753,25 +753,25 @@
         "Package": "fansi",
         "Title": "ANSI Control Sequence Aware String Functions",
         "Description": "Counterparts to R string manipulation functions that account for\n   the effects of ANSI text formatting control sequences.",
-        "Version": "0.4.2",
+        "Version": "0.5.0",
         "Authors@R": "c(\n    person(\"Brodie\", \"Gaslam\", email=\"brodie.gaslam@yahoo.com\",\n    role=c(\"aut\", \"cre\")),\n    person(\"Elliott\", \"Sales De Andrade\", role=\"ctb\"),\n    person(family=\"R Core Team\",\n    email=\"R-core@r-project.org\", role=\"cph\",\n    comment=\"UTF8 byte length calcs from src/util.c\"\n    ))",
         "Depends": "R (>= 3.1.0)",
         "License": "GPL (>= 2)",
-        "LazyData": "true",
         "URL": "https://github.com/brodieG/fansi",
         "BugReports": "https://github.com/brodieG/fansi/issues",
         "VignetteBuilder": "knitr",
         "Suggests": "unitizer, knitr, rmarkdown",
+        "Imports": "grDevices, utils",
         "RoxygenNote": "7.1.1",
         "Encoding": "UTF-8",
         "Collate": "'constants.R' 'fansi-package.R' 'has.R' 'internal.R' 'load.R'\n'misc.R' 'nchar.R' 'strip.R' 'strwrap.R' 'strtrim.R'\n'strsplit.R' 'substr2.R' 'tohtml.R' 'unhandled.R'",
         "NeedsCompilation": "yes",
-        "Packaged": "2021-01-15 02:13:47 UTC; bg",
+        "Packaged": "2021-05-25 00:22:35 UTC; bg",
         "Author": "Brodie Gaslam [aut, cre],\n  Elliott Sales De Andrade [ctb],\n  R Core Team [cph] (UTF8 byte length calcs from src/util.c)",
         "Maintainer": "Brodie Gaslam <brodie.gaslam@yahoo.com>",
         "Repository": "RSPM",
-        "Date/Publication": "2021-01-15 12:00:02 UTC",
-        "Built": "R 4.1.0; x86_64-pc-linux-gnu; 2021-05-18 23:23:45 UTC; unix"
+        "Date/Publication": "2021-05-25 04:40:10 UTC",
+        "Built": "R 4.1.0; x86_64-pc-linux-gnu; 2021-05-27 11:08:26 UTC; unix"
       }
     },
     "fastmap": {
@@ -836,7 +836,7 @@
         "Maintainer": "Jim Hester <james.f.hester@gmail.com>",
         "Repository": "CRAN",
         "Date/Publication": "2020-07-31 21:30:03 UTC",
-        "Built": "R 4.1.0; x86_64-pc-linux-gnu; 2021-05-21 10:44:15 UTC; unix"
+        "Built": "R 4.1.0; x86_64-pc-linux-gnu; 2021-06-04 09:02:54 UTC; unix"
       }
     },
     "gert": {
@@ -972,7 +972,7 @@
       "GithubRepo": "golem",
       "GithubUsername": "ThinkR-open",
       "GithubRef": "dev",
-      "GithubSha1": "dcd7dccfe4f7e212e6663eb7c54c58609430e8bb",
+      "GithubSha1": "eb6c2daeb920cad11bfc3ac075d0f67858e00bde",
       "description": {
         "Package": "golem",
         "Title": "A Framework for Robust Shiny Applications",
@@ -995,16 +995,16 @@
         "RemoteRepo": "golem",
         "RemoteUsername": "ThinkR-open",
         "RemoteRef": "dev",
-        "RemoteSha": "dcd7dccfe4f7e212e6663eb7c54c58609430e8bb",
+        "RemoteSha": "eb6c2daeb920cad11bfc3ac075d0f67858e00bde",
         "GithubRepo": "golem",
         "GithubUsername": "ThinkR-open",
         "GithubRef": "dev",
-        "GithubSHA1": "dcd7dccfe4f7e212e6663eb7c54c58609430e8bb",
+        "GithubSHA1": "eb6c2daeb920cad11bfc3ac075d0f67858e00bde",
         "NeedsCompilation": "no",
-        "Packaged": "2021-05-21 10:46:50 UTC; runner",
+        "Packaged": "2021-06-04 09:05:24 UTC; runner",
         "Author": "Colin Fay [cre, aut] (<https://orcid.org/0000-0001-7343-1846>),\n  Vincent Guyader [aut] (<https://orcid.org/0000-0003-0671-9270>,\n    previous maintainer),\n  Sébastien Rochette [aut] (<https://orcid.org/0000-0002-1565-9313>),\n  Cervan Girard [aut] (<https://orcid.org/0000-0002-4816-4624>),\n  Novica Nakov [ctb],\n  David Granjon [ctb],\n  ThinkR [cph]",
         "Maintainer": "Colin Fay <contact@colinfay.me>",
-        "Built": "R 4.1.0; ; 2021-05-21 10:46:50 UTC; unix"
+        "Built": "R 4.1.0; ; 2021-06-04 09:05:25 UTC; unix"
       }
     },
     "here": {
@@ -1799,10 +1799,10 @@
       "description": {
         "Package": "remotes",
         "Title": "R Package Installation from Remote Repositories, Including\n'GitHub'",
-        "Version": "2.3.0",
+        "Version": "2.4.0",
         "Authors@R": "c(\n    person(\"Jim\", \"Hester\", , \"jim.hester@rstudio.com\", role = c(\"aut\", \"cre\")),\n    person(\"Gábor\", \"Csárdi\", , \"csardi.gabor@gmail.com\", role = c(\"aut\")),\n    person(\"Hadley\", \"Wickham\", role = c(\"aut\")),\n    person(\"Winston\", \"Chang\", role = \"aut\"),\n    person(\"RStudio\", role = \"cph\"),\n    person(\"Martin\", \"Morgan\", role = \"aut\"),\n    person(\"Dan\", \"Tenenbaum\", role = \"aut\"),\n    person(\"Mango Solutions\", role = \"cph\")\n    )",
         "Description": "Download and install R packages stored in 'GitHub', 'GitLab', \n    'Bitbucket', 'Bioconductor', or plain 'subversion' or 'git' repositories. \n    This package provides the 'install_*' functions in 'devtools'. Indeed most \n    of the code was copied over from 'devtools'.",
-        "License": "GPL (>= 2)",
+        "License": "MIT + file LICENSE",
         "URL": "https://remotes.r-lib.org, https://github.com/r-lib/remotes#readme",
         "BugReports": "https://github.com/r-lib/remotes/issues",
         "Imports": "methods, stats, tools, utils",
@@ -1813,12 +1813,12 @@
         "SystemRequirements": "Subversion for install_svn, git for install_git",
         "Encoding": "UTF-8",
         "NeedsCompilation": "no",
-        "Packaged": "2021-04-01 14:52:52 UTC; jhester",
+        "Packaged": "2021-06-02 17:31:17 UTC; jhester",
         "Author": "Jim Hester [aut, cre],\n  Gábor Csárdi [aut],\n  Hadley Wickham [aut],\n  Winston Chang [aut],\n  RStudio [cph],\n  Martin Morgan [aut],\n  Dan Tenenbaum [aut],\n  Mango Solutions [cph]",
         "Maintainer": "Jim Hester <jim.hester@rstudio.com>",
         "Repository": "CRAN",
-        "Date/Publication": "2021-04-01 16:50:06 UTC",
-        "Built": "R 4.1.0; ; 2021-05-21 10:44:03 UTC; unix"
+        "Date/Publication": "2021-06-02 18:20:02 UTC",
+        "Built": "R 4.1.0; ; 2021-06-04 09:02:45 UTC; unix"
       }
     },
     "rlang": {
@@ -2171,7 +2171,7 @@
         "Maintainer": "Hadley Wickham <hadley@rstudio.com>",
         "Repository": "CRAN",
         "Date/Publication": "2021-02-14 16:50:03 UTC",
-        "Built": "R 4.1.0; x86_64-pc-linux-gnu; 2021-05-21 10:44:58 UTC; unix"
+        "Built": "R 4.1.0; x86_64-pc-linux-gnu; 2021-06-04 09:03:28 UTC; unix"
       }
     },
     "tibble": {
@@ -2527,23 +2527,22 @@
       "description": {
         "Package": "zip",
         "Title": "Cross-Platform 'zip' Compression",
-        "Version": "2.1.1",
+        "Version": "2.2.0",
         "Author": "Gábor Csárdi, Kuba Podgórski, Rich Geldreich",
         "Maintainer": "Gábor Csárdi <csardi.gabor@gmail.com>",
         "Description": "Cross-Platform 'zip' Compression Library. A replacement\n    for the 'zip' function, that does not require any additional\n    external tools on any platform.",
-        "License": "CC0",
-        "LazyData": "true",
+        "License": "MIT + file LICENSE",
         "URL": "https://github.com/r-lib/zip#readme",
         "BugReports": "https://github.com/r-lib/zip/issues",
-        "RoxygenNote": "7.1.1",
+        "RoxygenNote": "7.1.1.9001",
         "Config/testthat/edition": "3",
         "Suggests": "covr, processx, R6, testthat, withr",
         "Encoding": "UTF-8",
         "NeedsCompilation": "yes",
-        "Packaged": "2020-08-26 09:19:33 UTC; gaborcsardi",
+        "Packaged": "2021-05-30 21:43:42 UTC; gaborcsardi",
         "Repository": "RSPM",
-        "Date/Publication": "2020-08-27 16:00:02 UTC",
-        "Built": "R 4.1.0; x86_64-pc-linux-gnu; 2021-05-19 00:32:10 UTC; unix"
+        "Date/Publication": "2021-05-31 04:30:02 UTC",
+        "Built": "R 4.1.0; x86_64-pc-linux-gnu; 2021-06-01 23:45:26 UTC; unix"
       }
     }
   },
@@ -2576,10 +2575,10 @@
       "checksum": "74b3d8e66531020764d5199500ff4f29"
     },
     "dev/run_dev.R": {
-      "checksum": "4f5e25c94c58a643eb546c2daa5dd47b"
+      "checksum": "b815ca43a30e18343442fddde9317b06"
     },
     "Dockerfile": {
-      "checksum": "ae204bdc9d584ac41eda4e6c0b5a5a46"
+      "checksum": "d720be6794925099eae2e791780d7f82"
     },
     "inst/app/www/custom.css": {
       "checksum": "dad83b3d979065c6fc2c28d76e31ffdf"
