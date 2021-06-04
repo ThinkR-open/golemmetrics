@@ -583,7 +583,7 @@
         "Author": "Gábor Csárdi [aut, cre],\n  Kirill Müller [aut],\n  Jim Hester [aut],\n  Maëlle Salmon [ctb] (<https://orcid.org/0000-0002-2815-0399>)",
         "Repository": "CRAN",
         "Date/Publication": "2021-03-05 19:30:02 UTC",
-        "Built": "R 4.1.0; ; 2021-06-04 10:21:12 UTC; unix"
+        "Built": "R 4.1.0; ; 2021-06-04 10:21:41 UTC; unix"
       }
     },
     "diffobj": {
@@ -836,7 +836,7 @@
         "Maintainer": "Jim Hester <james.f.hester@gmail.com>",
         "Repository": "CRAN",
         "Date/Publication": "2020-07-31 21:30:03 UTC",
-        "Built": "R 4.1.0; x86_64-pc-linux-gnu; 2021-06-04 10:21:20 UTC; unix"
+        "Built": "R 4.1.0; x86_64-pc-linux-gnu; 2021-06-04 10:21:49 UTC; unix"
       }
     },
     "gert": {
@@ -1001,10 +1001,10 @@
         "GithubRef": "dev",
         "GithubSHA1": "93fc944828cab591551e1bc431a13e07602e3ecc",
         "NeedsCompilation": "no",
-        "Packaged": "2021-06-04 10:24:13 UTC; runner",
+        "Packaged": "2021-06-04 10:24:23 UTC; runner",
         "Author": "Colin Fay [cre, aut] (<https://orcid.org/0000-0001-7343-1846>),\n  Vincent Guyader [aut] (<https://orcid.org/0000-0003-0671-9270>,\n    previous maintainer),\n  Sébastien Rochette [aut] (<https://orcid.org/0000-0002-1565-9313>),\n  Cervan Girard [aut] (<https://orcid.org/0000-0002-4816-4624>),\n  Novica Nakov [ctb],\n  David Granjon [ctb],\n  ThinkR [cph]",
         "Maintainer": "Colin Fay <contact@colinfay.me>",
-        "Built": "R 4.1.0; ; 2021-06-04 10:24:13 UTC; unix"
+        "Built": "R 4.1.0; ; 2021-06-04 10:24:24 UTC; unix"
       }
     },
     "here": {
@@ -1818,7 +1818,7 @@
         "Maintainer": "Jim Hester <jim.hester@rstudio.com>",
         "Repository": "CRAN",
         "Date/Publication": "2021-06-02 18:20:02 UTC",
-        "Built": "R 4.1.0; ; 2021-06-04 10:21:08 UTC; unix"
+        "Built": "R 4.1.0; ; 2021-06-04 10:21:38 UTC; unix"
       }
     },
     "rlang": {
@@ -2171,7 +2171,7 @@
         "Maintainer": "Hadley Wickham <hadley@rstudio.com>",
         "Repository": "CRAN",
         "Date/Publication": "2021-02-14 16:50:03 UTC",
-        "Built": "R 4.1.0; x86_64-pc-linux-gnu; 2021-06-04 10:22:02 UTC; unix"
+        "Built": "R 4.1.0; x86_64-pc-linux-gnu; 2021-06-04 10:22:33 UTC; unix"
       }
     },
     "tibble": {
@@ -2575,7 +2575,7 @@
       "checksum": "74b3d8e66531020764d5199500ff4f29"
     },
     "dev/run_dev.R": {
-      "checksum": "4f5e25c94c58a643eb546c2daa5dd47b"
+      "checksum": "b815ca43a30e18343442fddde9317b06"
     },
     "Dockerfile": {
       "checksum": "b62ed554a793008636ada3469e6464a4"
@@ -2641,7 +2641,7 @@
       "checksum": "d4d5d0ee02a99da328e57dc052a94341"
     },
     "tests/testthat/test-golem-recommended.R": {
-      "checksum": "25be619841cda18a4f71bebe03aa3b77"
+      "checksum": "f609804901afb08deba23ace3e6e8825"
     }
   },
   "users": null
