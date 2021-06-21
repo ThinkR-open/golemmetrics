@@ -7,7 +7,7 @@ RUN Rscript -e 'remotes::install_version("processx",upgrade="never", version = "
 RUN Rscript -e 'remotes::install_version("htmltools",upgrade="never", version = "0.5.1.1")'
 RUN Rscript -e 'remotes::install_version("pkgload",upgrade="never", version = "1.2.1")'
 RUN Rscript -e 'remotes::install_version("attempt",upgrade="never", version = "0.3.1")'
-RUN Rscript -e 'remotes::install_version("testthat",upgrade="never", version = "3.0.2")'
+RUN Rscript -e 'remotes::install_version("testthat",upgrade="never", version = "3.0.3")'
 RUN Rscript -e 'remotes::install_version("shiny",upgrade="never", version = "1.6.0")'
 RUN Rscript -e 'remotes::install_version("config",upgrade="never", version = "0.3.1")'
 RUN Rscript -e 'remotes::install_version("cranlogs",upgrade="never", version = "2.1.1")'

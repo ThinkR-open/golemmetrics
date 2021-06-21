@@ -583,7 +583,7 @@
         "Author": "Gábor Csárdi [aut, cre],\n  Kirill Müller [aut],\n  Jim Hester [aut],\n  Maëlle Salmon [ctb] (<https://orcid.org/0000-0002-2815-0399>)",
         "Repository": "CRAN",
         "Date/Publication": "2021-03-05 19:30:02 UTC",
-        "Built": "R 4.1.0; ; 2021-06-04 13:17:42 UTC; unix"
+        "Built": "R 4.1.0; ; 2021-06-21 19:31:48 UTC; unix"
       }
     },
     "diffobj": {
@@ -836,7 +836,7 @@
         "Maintainer": "Jim Hester <james.f.hester@gmail.com>",
         "Repository": "CRAN",
         "Date/Publication": "2020-07-31 21:30:03 UTC",
-        "Built": "R 4.1.0; x86_64-pc-linux-gnu; 2021-06-04 13:17:50 UTC; unix"
+        "Built": "R 4.1.0; x86_64-pc-linux-gnu; 2021-06-21 19:31:55 UTC; unix"
       }
     },
     "gert": {
@@ -1001,10 +1001,10 @@
         "GithubRef": "dev",
         "GithubSHA1": "21d03a6fa5274cbb42a3dee83baf2b973e64def7",
         "NeedsCompilation": "no",
-        "Packaged": "2021-06-04 13:20:29 UTC; runner",
+        "Packaged": "2021-06-21 19:34:47 UTC; runner",
         "Author": "Colin Fay [cre, aut] (<https://orcid.org/0000-0001-7343-1846>),\n  Vincent Guyader [aut] (<https://orcid.org/0000-0003-0671-9270>,\n    previous maintainer),\n  Sébastien Rochette [aut] (<https://orcid.org/0000-0002-1565-9313>),\n  Cervan Girard [aut] (<https://orcid.org/0000-0002-4816-4624>),\n  Novica Nakov [ctb],\n  David Granjon [ctb],\n  ThinkR [cph]",
         "Maintainer": "Colin Fay <contact@colinfay.me>",
-        "Built": "R 4.1.0; ; 2021-06-04 13:20:30 UTC; unix"
+        "Built": "R 4.1.0; ; 2021-06-21 19:34:47 UTC; unix"
       }
     },
     "here": {
@@ -1818,7 +1818,7 @@
         "Maintainer": "Jim Hester <jim.hester@rstudio.com>",
         "Repository": "CRAN",
         "Date/Publication": "2021-06-02 18:20:02 UTC",
-        "Built": "R 4.1.0; ; 2021-06-04 13:17:38 UTC; unix"
+        "Built": "R 4.1.0; ; 2021-06-21 19:31:44 UTC; unix"
       }
     },
     "rlang": {
@@ -2150,7 +2150,7 @@
       "description": {
         "Package": "testthat",
         "Title": "Unit Testing for R",
-        "Version": "3.0.2",
+        "Version": "3.0.3",
         "Authors@R": "\n    c(person(given = \"Hadley\",\n             family = \"Wickham\",\n             role = c(\"aut\", \"cre\"),\n             email = \"hadley@rstudio.com\"),\n      person(given = \"RStudio\",\n             role = c(\"cph\", \"fnd\")),\n      person(given = \"R Core team\",\n             role = \"ctb\",\n             comment = \"Implementation of utils::recover()\"))",
         "Description": "Software testing is important, but, in part because\n    it is frustrating and boring, many of us avoid it. 'testthat' is a\n    testing framework for R that is easy to learn and use, and integrates\n    with your existing 'workflow'.",
         "License": "MIT + file LICENSE",
@@ -2166,12 +2166,12 @@
         "Encoding": "UTF-8",
         "RoxygenNote": "7.1.1",
         "NeedsCompilation": "yes",
-        "Packaged": "2021-02-12 19:39:23 UTC; hadley",
+        "Packaged": "2021-06-16 10:37:01 UTC; lionel",
         "Author": "Hadley Wickham [aut, cre],\n  RStudio [cph, fnd],\n  R Core team [ctb] (Implementation of utils::recover())",
         "Maintainer": "Hadley Wickham <hadley@rstudio.com>",
         "Repository": "CRAN",
-        "Date/Publication": "2021-02-14 16:50:03 UTC",
-        "Built": "R 4.1.0; x86_64-pc-linux-gnu; 2021-06-04 13:18:38 UTC; unix"
+        "Date/Publication": "2021-06-16 22:30:02 UTC",
+        "Built": "R 4.1.0; x86_64-pc-linux-gnu; 2021-06-21 19:32:35 UTC; unix"
       }
     },
     "tibble": {
@@ -2406,7 +2406,7 @@
         "Package": "xfun",
         "Type": "Package",
         "Title": "Supporting Functions for Packages Maintained by 'Yihui Xie'",
-        "Version": "0.23",
+        "Version": "0.24",
         "Authors@R": "c(\n  person(\"Yihui\", \"Xie\", role = c(\"aut\", \"cre\", \"cph\"), email = \"xie@yihui.name\", comment = c(ORCID = \"0000-0003-0645-5666\")),\n  person(\"Wush\", \"Wu\", role = \"ctb\"),\n  person(\"Daijiang\", \"Li\", role = \"ctb\"),\n  person(\"Xianying\", \"Tan\", role = \"ctb\"),\n  person(\"Salim\", \"Brüggemann\", role = \"ctb\", email = \"salim-b@pm.me\", comment = c(ORCID = \"0000-0002-5329-5987\")),\n  person(\"Christophe\", \"Dervieux\", role = \"ctb\"),\n  person()\n  )",
         "Description": "Miscellaneous functions commonly used in other packages maintained by 'Yihui Xie'.",
         "Imports": "stats, tools",
@@ -2418,12 +2418,12 @@
         "RoxygenNote": "7.1.1",
         "VignetteBuilder": "knitr",
         "NeedsCompilation": "yes",
-        "Packaged": "2021-05-14 22:59:47 UTC; yihui",
+        "Packaged": "2021-06-15 19:29:53 UTC; yihui",
         "Author": "Yihui Xie [aut, cre, cph] (<https://orcid.org/0000-0003-0645-5666>),\n  Wush Wu [ctb],\n  Daijiang Li [ctb],\n  Xianying Tan [ctb],\n  Salim Brüggemann [ctb] (<https://orcid.org/0000-0002-5329-5987>),\n  Christophe Dervieux [ctb]",
         "Maintainer": "Yihui Xie <xie@yihui.name>",
         "Repository": "RSPM",
-        "Date/Publication": "2021-05-15 06:20:02 UTC",
-        "Built": "R 4.1.0; x86_64-pc-linux-gnu; 2021-05-18 23:23:24 UTC; unix"
+        "Date/Publication": "2021-06-15 19:50:02 UTC",
+        "Built": "R 4.1.0; x86_64-pc-linux-gnu; 2021-06-16 10:49:45 UTC; unix"
       }
     },
     "xml2": {
@@ -2575,10 +2575,10 @@
       "checksum": "74b3d8e66531020764d5199500ff4f29"
     },
     "dev/run_dev.R": {
-      "checksum": "b815ca43a30e18343442fddde9317b06"
+      "checksum": "4f5e25c94c58a643eb546c2daa5dd47b"
     },
     "Dockerfile": {
-      "checksum": "2e41a68aab4cc6ec88a1198f54ddf719"
+      "checksum": "115dfc0536b099b4ff959ed87c5d2cf8"
     },
     "inst/app/www/custom.css": {
       "checksum": "dad83b3d979065c6fc2c28d76e31ffdf"
@@ -2641,7 +2641,7 @@
       "checksum": "d4d5d0ee02a99da328e57dc052a94341"
     },
     "tests/testthat/test-golem-recommended.R": {
-      "checksum": "f609804901afb08deba23ace3e6e8825"
+      "checksum": "25be619841cda18a4f71bebe03aa3b77"
     }
   },
   "users": null
