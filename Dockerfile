@@ -7,11 +7,11 @@ RUN Rscript -e 'remotes::install_version("processx",upgrade="never", version = "
 RUN Rscript -e 'remotes::install_version("htmltools",upgrade="never", version = "0.5.1.1")'
 RUN Rscript -e 'remotes::install_version("pkgload",upgrade="never", version = "1.2.1")'
 RUN Rscript -e 'remotes::install_version("attempt",upgrade="never", version = "0.3.1")'
-RUN Rscript -e 'remotes::install_version("testthat",upgrade="never", version = "3.0.3")'
+RUN Rscript -e 'remotes::install_version("testthat",upgrade="never", version = "3.0.4")'
 RUN Rscript -e 'remotes::install_version("shiny",upgrade="never", version = "1.6.0")'
 RUN Rscript -e 'remotes::install_version("config",upgrade="never", version = "0.3.1")'
 RUN Rscript -e 'remotes::install_version("cranlogs",upgrade="never", version = "2.1.1")'
-RUN Rscript -e 'remotes::install_github("ThinkR-open/golem@21d03a6fa5274cbb42a3dee83baf2b973e64def7")'
+RUN Rscript -e 'remotes::install_github("ThinkR-open/golem@1d77ec52a800468aac34f8aeb22252d4de55b9e5")'
 RUN mkdir /build_zone
 ADD . /build_zone
 WORKDIR /build_zone

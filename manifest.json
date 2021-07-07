@@ -311,25 +311,25 @@
       "description": {
         "Package": "cli",
         "Title": "Helpers for Developing Command Line Interfaces",
-        "Version": "2.5.0",
+        "Version": "3.0.0",
         "Authors@R": "c(\n    person(\"Gábor\", \"Csárdi\", , \"csardi.gabor@gmail.com\", c(\"aut\", \"cre\")),\n    person(\"Hadley\", \"Wickham\", role = c(\"ctb\")),\n    person(\"Kirill\", \"Müller\", role = c(\"ctb\")),\n    person(\"RStudio\", role = \"cph\")\n    )",
         "Description": "A suite of tools to build attractive command line interfaces\n    ('CLIs'), from semantic elements: headings, lists, alerts, paragraphs,\n    etc. Supports custom themes via a 'CSS'-like language. It also contains a\n    number of lower level 'CLI' elements: rules, boxes, trees, and\n    'Unicode' symbols with 'ASCII' alternatives. It support ANSI colors and\n    text styles as well.",
         "License": "MIT + file LICENSE",
-        "URL": "https://github.com/r-lib/cli#readme",
+        "URL": "https://cli.r-lib.org, https://github.com/r-lib/cli#readme",
         "BugReports": "https://github.com/r-lib/cli/issues",
         "RoxygenNote": "7.1.1.9001",
         "Depends": "R (>= 2.10)",
         "Imports": "glue, utils",
-        "Suggests": "callr, covr, grDevices, htmlwidgets, knitr, methods, mockery,\nps (>= 1.3.4.9000), rmarkdown, rstudioapi, prettycode (>=\n1.1.0), testthat, tibble, withr",
+        "Suggests": "callr, covr, grDevices, htmlwidgets, knitr, methods, mockery,\nprettycode (>= 1.1.0), processx, ps (>= 1.3.4.9000), rlang,\nrmarkdown, rstudioapi, shiny, testthat, tibble, withr",
         "Config/testthat/edition": "3",
         "Encoding": "UTF-8",
-        "NeedsCompilation": "no",
-        "Packaged": "2021-04-26 14:07:34 UTC; gaborcsardi",
+        "NeedsCompilation": "yes",
+        "Packaged": "2021-06-30 13:40:39 UTC; gaborcsardi",
         "Author": "Gábor Csárdi [aut, cre],\n  Hadley Wickham [ctb],\n  Kirill Müller [ctb],\n  RStudio [cph]",
         "Maintainer": "Gábor Csárdi <csardi.gabor@gmail.com>",
         "Repository": "RSPM",
-        "Date/Publication": "2021-04-26 15:10:02 UTC",
-        "Built": "R 4.1.0; ; 2021-05-18 23:23:45 UTC; unix"
+        "Date/Publication": "2021-06-30 15:20:06 UTC",
+        "Built": "R 4.1.0; x86_64-pc-linux-gnu; 2021-07-01 10:50:38 UTC; unix"
       }
     },
     "clipr": {
@@ -531,7 +531,7 @@
         "Package": "curl",
         "Type": "Package",
         "Title": "A Modern and Flexible Web Client for R",
-        "Version": "4.3.1",
+        "Version": "4.3.2",
         "Authors@R": "c(\n    person(\"Jeroen\", \"Ooms\", role = c(\"aut\", \"cre\"), email = \"jeroen@berkeley.edu\",\n      comment = c(ORCID = \"0000-0002-4035-0289\")),\n    person(\"Hadley\", \"Wickham\", , \"hadley@rstudio.com\", role = \"ctb\"),\n    person(\"RStudio\", role = \"cph\")\n    )",
         "Description": "The curl() and curl_download() functions provide highly\n    configurable drop-in replacements for base url() and download.file() with\n    better performance, support for encryption (https, ftps), gzip compression,\n    authentication, and other 'libcurl' goodies. The core of the package implements a\n    framework for performing fully customized requests where data can be processed\n    either in memory, on disk, or streaming via the callback or connection\n    interfaces. Some knowledge of 'libcurl' is recommended; for a more-user-friendly\n    web client see the 'httr' package which builds on this package with http\n    specific tools and logic.",
         "License": "MIT + file LICENSE",
@@ -545,12 +545,12 @@
         "Encoding": "UTF-8",
         "Language": "en-US",
         "NeedsCompilation": "yes",
-        "Packaged": "2021-04-30 10:35:45 UTC; jeroen",
+        "Packaged": "2021-06-22 11:39:40 UTC; jeroen",
         "Author": "Jeroen Ooms [aut, cre] (<https://orcid.org/0000-0002-4035-0289>),\n  Hadley Wickham [ctb],\n  RStudio [cph]",
         "Maintainer": "Jeroen Ooms <jeroen@berkeley.edu>",
         "Repository": "RSPM",
-        "Date/Publication": "2021-04-30 13:50:07 UTC",
-        "Built": "R 4.1.0; x86_64-pc-linux-gnu; 2021-05-18 23:23:26 UTC; unix"
+        "Date/Publication": "2021-06-23 07:00:06 UTC",
+        "Built": "R 4.1.0; x86_64-pc-linux-gnu; 2021-06-24 10:54:37 UTC; unix"
       }
     },
     "desc": {
@@ -583,7 +583,7 @@
         "Author": "Gábor Csárdi [aut, cre],\n  Kirill Müller [aut],\n  Jim Hester [aut],\n  Maëlle Salmon [ctb] (<https://orcid.org/0000-0002-2815-0399>)",
         "Repository": "CRAN",
         "Date/Publication": "2021-03-05 19:30:02 UTC",
-        "Built": "R 4.1.0; ; 2021-06-21 19:31:48 UTC; unix"
+        "Built": "R 4.1.0; ; 2021-07-07 12:05:44 UTC; unix"
       }
     },
     "diffobj": {
@@ -836,7 +836,7 @@
         "Maintainer": "Jim Hester <james.f.hester@gmail.com>",
         "Repository": "CRAN",
         "Date/Publication": "2020-07-31 21:30:03 UTC",
-        "Built": "R 4.1.0; x86_64-pc-linux-gnu; 2021-06-21 19:31:55 UTC; unix"
+        "Built": "R 4.1.0; x86_64-pc-linux-gnu; 2021-07-07 12:05:52 UTC; unix"
       }
     },
     "gert": {
@@ -850,7 +850,7 @@
         "Type": "Package",
         "Package": "gert",
         "Title": "Simple Git Client for R",
-        "Version": "1.3.0",
+        "Version": "1.3.1",
         "Authors@R": "c(\n    person(\"Jeroen\", \"Ooms\", role = c(\"aut\", \"cre\"), email = \"jeroen@berkeley.edu\",\n      comment = c(ORCID = \"0000-0002-4035-0289\")),\n    person(\"Jennifer\", \"Bryan\", role = \"ctb\", email = \"jenny@rstudio.com\",\n      comment = c(ORCID = \"0000-0002-6983-2759\")))",
         "Description": "Simple git client for R based on 'libgit2' with support for SSH and \n    HTTPS remotes. All functions in 'gert' use basic R data types (such as vectors\n    and data-frames) for their arguments and return values. User credentials are\n    shared with command line 'git' through the git-credential store and ssh keys\n    stored on disk or ssh-agent.",
         "License": "MIT + file LICENSE",
@@ -864,12 +864,12 @@
         "SystemRequirements": "libgit2 (>= 0.26): libgit2-devel (rpm) or\nlibgit2-dev (deb)",
         "Language": "en-US",
         "NeedsCompilation": "yes",
-        "Packaged": "2021-03-29 11:10:50 UTC; jeroen",
+        "Packaged": "2021-06-23 20:12:28 UTC; jeroen",
         "Author": "Jeroen Ooms [aut, cre] (<https://orcid.org/0000-0002-4035-0289>),\n  Jennifer Bryan [ctb] (<https://orcid.org/0000-0002-6983-2759>)",
         "Maintainer": "Jeroen Ooms <jeroen@berkeley.edu>",
         "Repository": "RSPM",
-        "Date/Publication": "2021-03-29 12:30:08 UTC",
-        "Built": "R 4.1.0; x86_64-pc-linux-gnu; 2021-05-19 00:33:27 UTC; unix"
+        "Date/Publication": "2021-06-23 20:50:01 UTC",
+        "Built": "R 4.1.0; x86_64-pc-linux-gnu; 2021-06-24 10:55:22 UTC; unix"
       }
     },
     "gh": {
@@ -972,7 +972,7 @@
       "GithubRepo": "golem",
       "GithubUsername": "ThinkR-open",
       "GithubRef": "dev",
-      "GithubSha1": "21d03a6fa5274cbb42a3dee83baf2b973e64def7",
+      "GithubSha1": "1d77ec52a800468aac34f8aeb22252d4de55b9e5",
       "description": {
         "Package": "golem",
         "Title": "A Framework for Robust Shiny Applications",
@@ -995,16 +995,16 @@
         "RemoteRepo": "golem",
         "RemoteUsername": "ThinkR-open",
         "RemoteRef": "dev",
-        "RemoteSha": "21d03a6fa5274cbb42a3dee83baf2b973e64def7",
+        "RemoteSha": "1d77ec52a800468aac34f8aeb22252d4de55b9e5",
         "GithubRepo": "golem",
         "GithubUsername": "ThinkR-open",
         "GithubRef": "dev",
-        "GithubSHA1": "21d03a6fa5274cbb42a3dee83baf2b973e64def7",
+        "GithubSHA1": "1d77ec52a800468aac34f8aeb22252d4de55b9e5",
         "NeedsCompilation": "no",
-        "Packaged": "2021-06-21 19:34:47 UTC; runner",
+        "Packaged": "2021-07-07 12:08:21 UTC; runner",
         "Author": "Colin Fay [cre, aut] (<https://orcid.org/0000-0001-7343-1846>),\n  Vincent Guyader [aut] (<https://orcid.org/0000-0003-0671-9270>,\n    previous maintainer),\n  Sébastien Rochette [aut] (<https://orcid.org/0000-0002-1565-9313>),\n  Cervan Girard [aut] (<https://orcid.org/0000-0002-4816-4624>),\n  Novica Nakov [ctb],\n  David Granjon [ctb],\n  ThinkR [cph]",
         "Maintainer": "Colin Fay <contact@colinfay.me>",
-        "Built": "R 4.1.0; ; 2021-06-21 19:34:47 UTC; unix"
+        "Built": "R 4.1.0; ; 2021-07-07 12:08:21 UTC; unix"
       }
     },
     "here": {
@@ -1432,23 +1432,22 @@
         "Package": "mime",
         "Type": "Package",
         "Title": "Map Filenames to MIME Types",
-        "Version": "0.10",
+        "Version": "0.11",
         "Authors@R": "c(\n    person(\"Yihui\", \"Xie\", role = c(\"aut\", \"cre\"), email = \"xie@yihui.name\", comment = c(ORCID = \"0000-0003-0645-5666\")),\n    person(\"Jeffrey\", \"Horner\", role = \"ctb\"),\n    person(\"Beilei\", \"Bian\", role = \"ctb\")\n    )",
         "Description": "Guesses the MIME type from a filename extension using the data\n    derived from /etc/mime.types in UNIX-type systems.",
         "Imports": "tools",
         "License": "GPL",
         "URL": "https://github.com/yihui/mime",
         "BugReports": "https://github.com/yihui/mime/issues",
-        "LazyData": "TRUE",
         "RoxygenNote": "7.1.1",
         "Encoding": "UTF-8",
         "NeedsCompilation": "yes",
-        "Packaged": "2021-02-12 21:48:56 UTC; yihui",
+        "Packaged": "2021-06-22 22:24:45 UTC; yihui",
         "Author": "Yihui Xie [aut, cre] (<https://orcid.org/0000-0003-0645-5666>),\n  Jeffrey Horner [ctb],\n  Beilei Bian [ctb]",
         "Maintainer": "Yihui Xie <xie@yihui.name>",
         "Repository": "RSPM",
-        "Date/Publication": "2021-02-13 07:30:02 UTC",
-        "Built": "R 4.1.0; x86_64-pc-linux-gnu; 2021-05-18 23:23:44 UTC; unix"
+        "Date/Publication": "2021-06-23 04:40:08 UTC",
+        "Built": "R 4.1.0; x86_64-pc-linux-gnu; 2021-06-24 10:54:30 UTC; unix"
       }
     },
     "openssl": {
@@ -1818,7 +1817,7 @@
         "Maintainer": "Jim Hester <jim.hester@rstudio.com>",
         "Repository": "CRAN",
         "Date/Publication": "2021-06-02 18:20:02 UTC",
-        "Built": "R 4.1.0; ; 2021-06-21 19:31:44 UTC; unix"
+        "Built": "R 4.1.0; ; 2021-07-07 12:05:41 UTC; unix"
       }
     },
     "rlang": {
@@ -2150,7 +2149,7 @@
       "description": {
         "Package": "testthat",
         "Title": "Unit Testing for R",
-        "Version": "3.0.3",
+        "Version": "3.0.4",
         "Authors@R": "\n    c(person(given = \"Hadley\",\n             family = \"Wickham\",\n             role = c(\"aut\", \"cre\"),\n             email = \"hadley@rstudio.com\"),\n      person(given = \"RStudio\",\n             role = c(\"cph\", \"fnd\")),\n      person(given = \"R Core team\",\n             role = \"ctb\",\n             comment = \"Implementation of utils::recover()\"))",
         "Description": "Software testing is important, but, in part because\n    it is frustrating and boring, many of us avoid it. 'testthat' is a\n    testing framework for R that is easy to learn and use, and integrates\n    with your existing 'workflow'.",
         "License": "MIT + file LICENSE",
@@ -2166,12 +2165,12 @@
         "Encoding": "UTF-8",
         "RoxygenNote": "7.1.1",
         "NeedsCompilation": "yes",
-        "Packaged": "2021-06-16 10:37:01 UTC; lionel",
+        "Packaged": "2021-06-30 11:11:03 UTC; lionel",
         "Author": "Hadley Wickham [aut, cre],\n  RStudio [cph, fnd],\n  R Core team [ctb] (Implementation of utils::recover())",
         "Maintainer": "Hadley Wickham <hadley@rstudio.com>",
         "Repository": "CRAN",
-        "Date/Publication": "2021-06-16 22:30:02 UTC",
-        "Built": "R 4.1.0; x86_64-pc-linux-gnu; 2021-06-21 19:32:35 UTC; unix"
+        "Date/Publication": "2021-07-01 07:00:02 UTC",
+        "Built": "R 4.1.0; x86_64-pc-linux-gnu; 2021-07-07 12:06:26 UTC; unix"
       }
     },
     "tibble": {
@@ -2575,10 +2574,10 @@
       "checksum": "74b3d8e66531020764d5199500ff4f29"
     },
     "dev/run_dev.R": {
-      "checksum": "4f5e25c94c58a643eb546c2daa5dd47b"
+      "checksum": "b815ca43a30e18343442fddde9317b06"
     },
     "Dockerfile": {
-      "checksum": "115dfc0536b099b4ff959ed87c5d2cf8"
+      "checksum": "6d223d6b10da877ef7a4daf4395d6443"
     },
     "inst/app/www/custom.css": {
       "checksum": "dad83b3d979065c6fc2c28d76e31ffdf"
@@ -2641,7 +2640,7 @@
       "checksum": "d4d5d0ee02a99da328e57dc052a94341"
     },
     "tests/testthat/test-golem-recommended.R": {
-      "checksum": "25be619841cda18a4f71bebe03aa3b77"
+      "checksum": "f609804901afb08deba23ace3e6e8825"
     }
   },
   "users": null
